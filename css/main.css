@@ -335,7 +335,7 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
@@ -381,7 +381,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 
@@ -470,7 +470,7 @@ footer .theme-by {
 }
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 30px;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
