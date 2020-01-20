@@ -22,7 +22,7 @@ description: All there is to know about me
 navbar-links:
   About Me: "aboutme"
   Resources:
-  #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - H2GD - Collection: "https://guide.devlup.fr/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #Author's home: "http://deanattali.com"
 
