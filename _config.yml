@@ -228,6 +228,16 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags of the article"
+          placeholder: "Choose your tags"
+          options:
+            - name: "Cloud"
+              value: "cloud"
+            - name: "SEO"
+              value: "seo"
       - name: "date"
         field:
           element: "text"
@@ -242,6 +252,14 @@ prose:
           help: "Add a thumbnail image to your post."
           placeholder: "Thumbnail"
           alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      
       - name: "published"
         field:
           element: "checkbox"
@@ -253,5 +271,3 @@ plugins:
   - jekyll-sitemap
   - github-pages
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
