@@ -68,8 +68,8 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
+  email: "girard.stanislas@pm.me"
+  facebook: StanGirard
   github: StanGirard
   twitter: StanGirard
 #  reddit: yourname
@@ -169,7 +169,7 @@ kramdown:
 defaults:
   -
     scope:
-      path: ""
+      path: "/blog"
       type: "posts"
     values:
       layout: "post"
@@ -233,6 +233,7 @@ prose:
           element: "multiselect"
           label: "Tags of the article"
           placeholder: "Choose your tags"
+          alterable: true
           options:
             - name: "Cloud"
               value: "cloud"
@@ -252,13 +253,6 @@ prose:
           help: "Add a thumbnail image to your post."
           placeholder: "Thumbnail"
           alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
       
       - name: "published"
         field:
@@ -270,4 +264,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - github-pages
-
