@@ -246,6 +246,13 @@ prose:
           help: "Enter date of post."
           placeholder: "yyyy-mm-dd"
           alterable: true
+      - name: "bigimg"
+        field:
+          element: "text"
+          label: "Big Image"
+          help: "Add a big image to your post."
+          placeholder: "Landscape Image"
+          alterable: true
       - name: "image"
         field:
           element: "text"
@@ -253,6 +260,7 @@ prose:
           help: "Add a thumbnail image to your post."
           placeholder: "Thumbnail"
           alterable: true
+      
       
       - name: "published"
         field:
