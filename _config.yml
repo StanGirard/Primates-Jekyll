@@ -232,14 +232,14 @@ prose:
         field:
           element: "text"
           label: "Big Image"
-          help: "Add a big image to your post."
-          placeholder: "Landscape Image"
+          help: "Add a big image to your post. **/img/img.png**"
+          placeholder: "Landscape Image "
           alterable: true
       - name: "image"
         field:
           element: "text"
           label: "Image"
-          help: "Add a thumbnail image to your post."
+          help: "Add a thumbnail image to your post. **/img/img.png**"
           placeholder: "Thumbnail"
           alterable: true
       - name: "tags"
