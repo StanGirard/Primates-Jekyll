@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: The Hitchhikers Guide for Developers
+title: Primates 
 
 # Short description of your site
-description: All there is to know about me
+description: Guides for developers
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -93,7 +93,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "h2gd.net"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Primates.dev"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
