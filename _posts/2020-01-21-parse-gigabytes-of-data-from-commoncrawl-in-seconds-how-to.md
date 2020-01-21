@@ -4,7 +4,7 @@ published: true
 title: Parse gigabytes of data from commoncrawl in seconds - How To
 subtitle: AWS Athena - Parsing Gigabytes in seconds
 tags:
-  - cloud
+  - Cloud
   - Athena
   - CommonCrawl
   - Crawl
@@ -116,4 +116,3 @@ HAVING (COUNT(*) >= 100)
 ORDER BY  count DESC
 ```
 This Query will return all the url_host_registered_domain count from Norway.
-
