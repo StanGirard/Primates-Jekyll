@@ -24,24 +24,24 @@ We'll take a look at how we can use the power of [Amazon Athena](https://aws.ama
 Athena is easy to use. Simply point to your data in Amazon S3, define the schema, and start querying using standard SQL. Most results are delivered within seconds. With Athena, there’s no need for complex ETL jobs to prepare your data for analysis. This makes it easy for anyone with SQL skills to quickly analyze large-scale datasets.
 
 
-## Get Millions of domains in seconds
+## Get Started
 
 We are going to query the [Common Crawl](https://commoncrawl.org/) S3 bucket to get the list of all the domains it has crawled
 
----
+### Create AWS Account
  Open the [Athena query editor](https://console.aws.amazon.com/athena/home?region=us-east-1#query).
 
----
- Select us-east-1 as your location
+### Region Selection
+ Select us-east-1 as your location as it is where the CommonCrawl data is stored. Be aware that AWS has a pricing regulation towards data going out of its network. ~0.02cts/GB.
 
----
+### Create Database
 Run the query 
 ```MYSQL
 CREATE DATABASE ccindex
 ```
 This will create a database
 
----
+### Create Table
 Create a new table with the following query 
 ```MYSQL
 CREATE EXTERNAL TABLE IF NOT EXISTS ccindex (
@@ -81,7 +81,7 @@ LOCATION 's3://commoncrawl/cc-index/table/cc-main/warc/';
 
 This will map the table ccindex that your created woth the location of the S3 bucket where the data is store
 
----
+### Match Table
 Run 
 ```MYSQL 
 MSCK REPAIR TABLE ccindex
@@ -89,7 +89,7 @@ MSCK REPAIR TABLE ccindex
 
 Note that you need to rerun this command every month as new data is added by the commo crawl foundation.
 
----
+### Execute query
 Run
 ```MYSQL
 SELECT DISTINCT(url_host_name)
@@ -115,4 +115,5 @@ GROUP BY  url_host_registered_domain
 HAVING (COUNT(*) >= 100)
 ORDER BY  count DESC
 ```
-This Query will return all the url_host_registered_domain count from Norway
+This Query will return all the url_host_registered_domain count from Norway.
+
