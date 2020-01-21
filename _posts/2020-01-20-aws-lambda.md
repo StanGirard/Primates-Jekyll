@@ -16,3 +16,7 @@ bigimg: /img/cloud-computing.jpg
 ## Description
 
 ### What is it ?
+
+```JS
+cont hello = "Hello World!";
+```
