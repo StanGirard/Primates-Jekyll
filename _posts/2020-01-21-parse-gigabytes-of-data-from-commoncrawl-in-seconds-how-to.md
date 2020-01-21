@@ -10,6 +10,7 @@ tags:
   - Crawl
 date: '2020-01-21'
 image: /img/web-crawler.png
+comments: true
 ---
 
 [CommonCrawl](https://commoncrawl.org/) is a non-profit organization that crawls millions of websites every month and stores all the data on [Amazon S3](https://aws.amazon.com/s3/). 
