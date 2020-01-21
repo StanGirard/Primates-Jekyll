@@ -250,9 +250,9 @@ prose:
           alterable: true
           options:
             - name: "Cloud"
-              value: "cloud"
+              value: "Cloud"
             - name: "SEO"
-              value: "seo"
+              value: "SEO"
       - name: "date"
         field:
           element: "text"
