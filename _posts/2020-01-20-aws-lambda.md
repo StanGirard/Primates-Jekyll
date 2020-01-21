@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: How to create a REST API using AWS Lambda Serverless
-subtitle: How to create a simple rest api using aws lambda
+subtitle: How to create a REST API using AWS Lambda Serverless
 image: /img/lambda.png
 date: '2020-01-20'
 bigimg: /img/cloud-computing.jpg
