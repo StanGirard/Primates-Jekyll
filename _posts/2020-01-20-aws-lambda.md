@@ -4,10 +4,10 @@ published: true
 title: How to create a simple rest api using aws lambda
 subtitle: How to create a simple rest api using aws lambda
 image: /img/lambda.png
-tags:
-  - cloud
 date: '2020-01-20'
 bigimg: /img/cloud-computing.jpg
+tags:
+  - Cloud
 ---
 
 
