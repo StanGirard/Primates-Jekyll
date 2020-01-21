@@ -1,0 +1,13 @@
+commit 74607d4f460e8a3959ede551257b14b284a85265
+Author: StanGirard <girard.stanislas@gmail.com>
+Date:   Tue Jan 21 16:20:52 2020 +0100
+
+    TESTITI
+
+diff --git a/hello b/hello
+new file mode 100644
+index 0000000..802992c
+--- /dev/null
++++ b/hello
+@@ -0,0 +1 @@
++Hello world

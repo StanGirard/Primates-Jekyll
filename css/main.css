@@ -789,20 +789,20 @@ pre {
 
 .inline_toc {
 float: right;
-width: 50%;
-background: #eee;
-font-size: 0.8em;
-padding: 1em 2em;
-margin: 0 0 0.5em 0.5em;
-font-weight: 600;
+width: 40%;
+border-radius: 10px;
+background: #dfdfdf;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 .inline_toc li {
-margin: 0 0 .6em 0;
-list-style-type: none;
+  /* list-style-type: ; */
+  line-height: 1.5em;
+
 }
 
 .inline_toc a {
 text-decoration: none;
-color: #3D5AFE;
+color: #68826F;
 }
