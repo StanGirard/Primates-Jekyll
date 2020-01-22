@@ -13,4 +13,10 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Auteur", name: "author", widget: "string"}
+      - {label: "Twitter Card", name: "image", widget: "image"}
+      - {label: "Texte", name: "body", widget: "markdown"}
     
