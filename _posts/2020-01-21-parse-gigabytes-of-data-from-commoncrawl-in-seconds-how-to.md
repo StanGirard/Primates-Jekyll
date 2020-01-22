@@ -10,6 +10,7 @@ layout: post
 subtitle: AWS Athena - Parsing Gigabytes in seconds
 image: "/img/web-crawler.png"
 comments: true
+author: stan_girard
 ---
 
 [CommonCrawl](https://commoncrawl.org/) is a non-profit organization that crawls millions of websites every month and stores all the data on [Amazon S3](https://aws.amazon.com/s3/). 
