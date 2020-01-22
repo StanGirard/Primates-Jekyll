@@ -1,15 +1,14 @@
 ---
-layout: post
-published: true
 title: Parse gigabytes of data from commoncrawl in seconds - How To
-subtitle: AWS Athena - Parsing Gigabytes in seconds
+date: 2020-01-21 00:00:00 -08:00
 tags:
-  - Cloud
-  - Athena
-  - CommonCrawl
-  - Crawl
-date: '2020-01-21'
-image: /img/web-crawler.png
+- Cloud
+- Athena
+- CommonCrawl
+- Crawl
+layout: post
+subtitle: AWS Athena - Parsing Gigabytes in seconds
+image: "/img/web-crawler.png"
 comments: true
 ---
 

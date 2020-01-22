@@ -1,10 +1,10 @@
 ---
 common-css:
-  - "/css/bootstrap.min.css"
-  - "/css/main-minimal.css"
+- "/css/bootstrap.min.css"
+- "/css/main-minimal.css"
 common-js:
-  - "/js/jquery-1.11.2.min.js"
-  - "/js/bootstrap.min.js"
+- "/js/jquery-1.11.2.min.js"
+- "/js/bootstrap.min.js"
 ---
 
 <!DOCTYPE html>
