@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: StanGirard/Primates
+  branch: master
+
+publish_mode: editorial_workflow
+
+media_folder: "img"
+
+collections:
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    
