@@ -160,7 +160,7 @@ date_format: "%B %-d, %Y"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:title/
 paginate: 10
 
 kramdown:
@@ -197,7 +197,7 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   media: 'img'
   ignore:
     - 404.html
@@ -210,6 +210,51 @@ prose:
     - /img
     - /js
   metadata:
+    help:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "bigimg"
+        field:
+          element: "text"
+          label: "Big Image"
+          help: "Add a big image to your post. **/img/img.png**"
+          placeholder: "Landscape Image "
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post. **/img/img.png**"
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+
     _posts:
       - name: "layout"
         field:
@@ -264,6 +309,7 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
+    
 
 plugins:
   - jekyll-paginate
