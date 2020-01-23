@@ -5,7 +5,7 @@ date: 'Mon Jan 20 2020 09:00:00 GMT+0100 (heure normale d’Europe centrale)'
 tags:
   - Cloud
 subtitle: How to create a REST API using AWS Lambda Serverless
-image: /img/settings.png
+image: /img/algorithm.png
 bigimg: /img/cloud-computing.jpg
 published: true
 ---
