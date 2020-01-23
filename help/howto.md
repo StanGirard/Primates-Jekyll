@@ -118,5 +118,9 @@ Metadata:
 Once your article is done, make a pull request to merge your project with the main repo.
 If you've followed all the guidelines the article should be accepted within a day.
 
+
+At anytime you can see the changes to your article on the `http://<yourGithubUsername>.github.io/Primates`
+
 Good luck ! 
+
 
