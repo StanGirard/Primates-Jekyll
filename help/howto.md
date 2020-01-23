@@ -98,6 +98,17 @@ Don't forget to save !
 
 Go **_post** and click on the **create button**
 
+![post-create-metadata.png]({{site.baseurl}}/img/user_upload/post-create-metadata.png)
 
+Then Click on the metadata on the right
+
+Metadata:
+- Subtitle: subtitle of the article
+- Big Image: landscape image at the top of the article. It must be in the **img/user_big_img** folder
+- Image: Little image in a circle that represents your Post. Must be chosen from the images in the folders already in **img/**
+- Author: Add your author username
+- Tags: Add the tags for your article
+- Date: Add the date YYYY-MM-DD
+- Publish: Set to false to save it as a draft
 
 
