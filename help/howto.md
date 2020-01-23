@@ -16,7 +16,9 @@ gh-badge:
 
 Here are a few steps to help you get started on blogging
 
-## Fork Primates Repo
+## Get Started
+
+### Fork Primates Repo
 
 First of all you need to fork the project
 
@@ -24,11 +26,26 @@ First of all you need to fork the project
 
 ![fork-primates.png]({{site.baseurl}}/img/user_upload/fork-primates.png)
 
-## Setup Github Pages on Fork
 
-Go to Settings 
+
+### Setup Github Pages on Fork
+
+Do this step only if you want to be able to visualize your post before making a pull request to the main repo
+
+Then you need to host the Fork on Github Pages
+
+- Go to Settings
+- Choose Master Branch
+- Don't choose a theme
+- Optional: Add a custom domain (follow this [guide](https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site))
 
 ![fork-github-pages.png]({{site.baseurl}}/img/user_upload/fork-github-pages.png)
 
+### Check that your installation work
+
+Go to `<yourGithubUsername>.github.io/Primates` to see if the github pages work
+  
+  
+### Go to 
 
 
