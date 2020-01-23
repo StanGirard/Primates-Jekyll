@@ -21,7 +21,7 @@ description: Guides for developers
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Post An Article: "_help/howto"
+  Post An Article: "help/howto"
   Resources:
     - H2GD - Collection: "https://guide.devlup.fr/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
@@ -219,7 +219,7 @@ prose:
     - favicon.ico
     - staticman.yml
   metadata:
-    _help:
+    help:
       - name: "layout"
         field:
           element: "hidden"
