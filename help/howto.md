@@ -18,3 +18,17 @@ Here are a few steps to help you get started on blogging
 
 ## Fork Primates Repo
 
+First of all you need to fork the project
+
+> You need to have a github account
+
+![fork-primates.png]({{site.baseurl}}/img/user_upload/fork-primates.png)
+
+## Setup Github Pages on Fork
+
+Go to Settings 
+
+![fork-github-pages.png]({{site.baseurl}}/img/user_upload/fork-github-pages.png)
+
+
+
