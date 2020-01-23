@@ -43,7 +43,7 @@ Then you need to host the Fork on Github Pages
 
 ![fork-github-pages.png]({{site.baseurl}}/img/user_upload/fork-github-pages.png)
 
-### Check that your installation work
+### Check that your installation works
 ---
 
 Go to `<yourGithubUsername>.github.io/Primates` to see if the github pages work
