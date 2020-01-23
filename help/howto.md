@@ -53,6 +53,16 @@ If that is successfull then your installation is complete
 
 ![prose-login.png]({{site.baseurl}}/img/user_upload/prose-login.png)
 
+Give access to Prose to your Github Account
+
+### Go to Primates Project
+
+Choose your Primates
+
+![prose-primate-chose.png]({{site.baseurl}}/img/user_upload/prose-primate-chose.png)
+
+###
+
 
 
 
