@@ -209,6 +209,16 @@ prose:
     - /css
     - /img
     - /js
+    - /admin
+    - /.github
+    - .gitattribute
+    - .gitignore
+    - CHANGELOG.md
+    - DOCKERFILE
+    - Gemfile
+    - Gemfile.lock
+    - favicon.ico
+    - staticman.yml
   metadata:
     help:
       - name: "layout"
