@@ -21,7 +21,7 @@ description: Guides for developers
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Post An Article: "help/howto"
+  Post An Article: "_help/howto"
   Resources:
     - H2GD - Collection: "https://guide.devlup.fr/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
@@ -211,16 +211,17 @@ prose:
     - /js
     - /admin
     - /.github
-    - .gitattribute
+    - .gitattributes
     - .gitignore
     - CHANGELOG.md
+    - CNAME
     - DOCKERFILE
     - Gemfile
     - Gemfile.lock
     - favicon.ico
     - staticman.yml
   metadata:
-    help:
+    _help:
       - name: "layout"
         field:
           element: "hidden"
