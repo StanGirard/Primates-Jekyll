@@ -66,7 +66,7 @@ Give access to Prose to your Github Account
 ### Go to Primates Project
 ---
 
-Choose your Primates
+Choose your Primates Project
 
 ![prose-primate-chose.png]({{site.baseurl}}/img/user_upload/prose-primate-chose.png)
 
@@ -96,6 +96,8 @@ Don't forget to save !
 
 ### Create a post
 
-Go
+Go **_post** and click on the **create button**
+
+
 
 
