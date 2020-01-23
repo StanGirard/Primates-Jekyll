@@ -285,7 +285,7 @@ prose:
         field:
           element: "text"
           label: "Big Image"
-          help: "Add a big image to your post. **/img/img.png**"
+          help: "Add a big image to your post. **/img/user_big_img/img.png**"
           placeholder: "Landscape Image "
           alterable: true
       - name: "image"
