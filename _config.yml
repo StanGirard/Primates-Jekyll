@@ -21,6 +21,7 @@ description: Guides for developers
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Post An Article: "help/howto"
   Resources:
     - H2GD - Collection: "https://guide.devlup.fr/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
