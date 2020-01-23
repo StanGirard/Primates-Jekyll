@@ -295,6 +295,13 @@ prose:
           help: "Add a thumbnail image to your post. **/img/img.png**"
           placeholder: "Thumbnail"
           alterable: true
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          help: "Your author username"
+          placeholder: "stan_girard"
+          alterable: true
       - name: "tags"
         field:
           element: "multiselect"
