@@ -5,4 +5,5 @@ subtitle: Guidelines to help you post an article
 published: true
 bigimg: /img/user_big_img/writing-post.jpg
 date: '2020-01-23'
+image: /img/copywriting/018-blogging
 ---
