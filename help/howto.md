@@ -44,8 +44,18 @@ Then you need to host the Fork on Github Pages
 ### Check that your installation work
 
 Go to `<yourGithubUsername>.github.io/Primates` to see if the github pages work
+
+If that is successfull then your installation is complete
   
-  
-### Go to 
+## Post an Article
+
+### Go to [Prose.io](http://prose.io)
+
+![prose-login.png]({{site.baseurl}}/img/user_upload/prose-login.png)
+
+
+
+
+
 
 
