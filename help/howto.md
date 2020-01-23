@@ -19,6 +19,7 @@ Here are a few steps to help you get started on blogging
 ## Get Started
 
 ### Fork Primates Repo
+---
 
 First of all you need to fork the project
 
@@ -29,6 +30,7 @@ First of all you need to fork the project
 
 
 ### Setup Github Pages on Fork
+---
 
 Do this step only if you want to be able to visualize your post before making a pull request to the main repo
 
@@ -42,30 +44,32 @@ Then you need to host the Fork on Github Pages
 ![fork-github-pages.png]({{site.baseurl}}/img/user_upload/fork-github-pages.png)
 
 ### Check that your installation work
+---
 
 Go to `<yourGithubUsername>.github.io/Primates` to see if the github pages work
 
 If that is successfull then your installation is complete
   
+
+
+
 ## Post an Article
 
+
 ### Go to [Prose.io](http://prose.io)
+---
 
 ![prose-login.png]({{site.baseurl}}/img/user_upload/prose-login.png)
 
 Give access to Prose to your Github Account
 
 ### Go to Primates Project
+---
 
 Choose your Primates
 
 ![prose-primate-chose.png]({{site.baseurl}}/img/user_upload/prose-primate-chose.png)
 
+If everything is successfull you should end up on a page that looks like that.
+
 ###
-
-
-
-
-
-
-
