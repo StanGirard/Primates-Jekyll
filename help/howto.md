@@ -111,4 +111,12 @@ Metadata:
 - Date: Add the date YYYY-MM-DD
 - Publish: Set to false to save it as a draft
 
+**Then start writing your article !**
+
+## Pull Request
+
+Once your article is done, make a pull request to merge your project with the main repo.
+If you've followed all the guidelines the article should be accepted within a day.
+
+Good luck ! 
 
