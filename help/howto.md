@@ -72,4 +72,30 @@ Choose your Primates
 
 If everything is successfull you should end up on a page that looks like that.
 
-###
+![prose-archi.png]({{site.baseurl}}/img/user_upload/prose-archi.png)
+
+
+- _data: Stores information about the authors, etc
+- _post: Place where the posts are saved
+- help: Page that are added such as this one
+
+### Create an author
+
+Go to **_data** and modify **authors.yml**
+
+Add a new author:
+
+```YAML
+<username>:
+    name: <First LastName>
+    email: <Email>
+    web: <Your website or Profile Page>
+```
+
+Don't forget to save !
+
+### Create a post
+
+Go
+
+
