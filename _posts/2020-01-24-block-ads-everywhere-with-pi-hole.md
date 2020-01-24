@@ -57,12 +57,27 @@ ssh root@<ipaddress>
   
 ### Installation
   
-Simply run 
+
+- **Simply run**
 
 {% highlight bash %}
 # One line installer
  curl -sSL https://install.pi-hole.net | bash
 {% endhighlight %}
+  
+
+  
+- **Accept everything** except if you want to customize(only if you know what you are doing)
+![pihole-installer.png]({{site.baseurl}}/img/user_upload/pihole-installer.png)
+  
+- **Save the admin password**
+
+
+
+  
+  
+
+
  
 
     
