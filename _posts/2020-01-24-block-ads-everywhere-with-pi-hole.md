@@ -39,10 +39,19 @@ If you already have an account you can skip to step 2.
     - Choose the **1GB/1CPU** Option
 ![digitalocean-size.png]({{site.baseurl}}/img/user_upload/digitalocean-size.png)
 
-    - Choose the location that best suits your needs****
+    - Choose the **location that best suits your needs**
 ![digitalocean-location.png]({{site.baseurl}}/img/user_upload/digitalocean-location.png)
-    - Add an SSH Key for better protection or use the One-time Password
-
-    - Create the droplet
+    - Add an **SSH Key for better protection** or use the One-time Password
+![digitalocean-sshkeys.png]({{site.baseurl}}/img/user_upload/digitalocean-sshkeys.png)
+	- Create the droplet
     
+The deployment of the drop should take less than 2 minutes.
 
+Once the droplet has been deployed, look for its IP address.
+
+Then just log to your Droplet
+{% highlight bash %}
+ssh root@<ipaddress>
+{% endhighlight %}
+
+    
