@@ -166,6 +166,10 @@ paginate: 10
 kramdown:
   input: GFM
 
+collections:
+  help:
+    output: true
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   - scope:
