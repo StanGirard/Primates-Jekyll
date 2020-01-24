@@ -7,6 +7,8 @@ author: stan_girard
 tags:
   - Ads
   - AdBlock
+  - DNS
+  - Pi-Hole
 image: /img/user_upload/Pi-hole_Logo.png
 date: '2020-01-24'
 categories:
@@ -71,13 +73,3 @@ ssh root@<ipaddress>
 ![pihole-installer.png]({{site.baseurl}}/img/user_upload/pihole-installer.png)
   
 - **Save the admin password**
-
-
-
-  
-  
-
-
- 
-
-    
