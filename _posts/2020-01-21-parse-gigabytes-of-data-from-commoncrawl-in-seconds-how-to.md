@@ -14,7 +14,6 @@ author: stan_girard
 published: true
 categories:
   - Cloud
-  - AWS
 ---
 
 [CommonCrawl](https://commoncrawl.org/) is a non-profit organization that crawls millions of websites every month and stores all the data on [Amazon S3](https://aws.amazon.com/s3/). 
