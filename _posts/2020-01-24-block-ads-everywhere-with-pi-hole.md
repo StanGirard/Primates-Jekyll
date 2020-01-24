@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Block Ads everywhere with Pi-hole
 subtitle: A DNS sinkhole that protects your devices from ads
 author: stan_girard
@@ -32,5 +32,3 @@ For the purpose of simplicity I'll show you how to install it on [DigitalOcean](
 
 If you already have an account you can skip to step 2.
 Create an account on DigitalOcean [here](https://m.do.co/c/f9dca2b1ecc8).
-
-
