@@ -21,7 +21,6 @@ One of the main advantages of [Pi-hole](https://pi-hole.net/) is that you can us
 - **Very fast & Reliable**
 
 ## Installation
-![digitalocean-location.png]({{site.baseurl}}/img/user_upload/digitalocean-location.png)
 
 In order to install [Pi-hole](https://pi-hole.net/) you'll either need a [Raspbery-Pi 4/3](https://amzn.to/38InYI1) or a small server such as one on [DigitalOcean](https://m.do.co/c/f9dca2b1ecc8)
 
@@ -41,8 +40,9 @@ If you already have an account you can skip to step 2.
 ![digitalocean-size.png]({{site.baseurl}}/img/user_upload/digitalocean-size.png)
 
     - Choose the location that best suits your needs****
-![]({{site.baseurl}}/img/user_upload/digitalocean-location.png)
+![digitalocean-location.png]({{site.baseurl}}/img/user_upload/digitalocean-location.png)
     - Add an SSH Key for better protection or use the One-time Password
+
     - Create the droplet
     
 
