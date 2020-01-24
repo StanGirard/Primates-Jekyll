@@ -51,9 +51,8 @@ Once the droplet has been deployed, look for its IP address.
 
 Then just log to your Droplet
 {% highlight bash %}
-
+# SSH to your droplet
 ssh root@<ipaddress>
-  
 {% endhighlight %}
   
 ### Installation
@@ -61,7 +60,7 @@ ssh root@<ipaddress>
 Simply run 
 
 {% highlight bash %}
-
+# One line installer
  curl -sSL https://install.pi-hole.net | bash
 
 {% endhighlight %}
