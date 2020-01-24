@@ -160,7 +160,7 @@ date_format: "%B %-d, %Y"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+permalink: pretty
 paginate: 10
 
 kramdown:
@@ -281,6 +281,17 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Categories of your Article - Max 2"
+          placeholder: "Choose your categories"
+          alterable: true
+          options:
+            - name: "Cloud"
+              value: "Cloud"
+            - name: "SEO"
+              value: "SEO"
       - name: "bigimg"
         field:
           element: "text"
