@@ -55,5 +55,16 @@ Then just log to your Droplet
 ssh root@<ipaddress>
   
 {% endhighlight %}
+  
+### Installation
+  
+Simply run 
+
+{% highlight bash %}
+
+ curl -sSL https://install.pi-hole.net | bash
+  
+{% endhighlight %}
+ 
 
     
