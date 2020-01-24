@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parse gigabytes of data from commoncrawl in seconds - How To
+title: Parse Petabytes of data from CommonCrawl in seconds
 date: 'Tue Jan 21 2020 09:00:00 GMT+0100 (heure normale d’Europe centrale)'
 tags:
   - Cloud
