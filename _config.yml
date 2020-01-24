@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Primates 
+title: Primates
 
 # Short description of your site
 description: Guides for developers
@@ -99,13 +99,13 @@ url-pretty: "Primates.dev"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "GTM-PK9SSDF"
+gtag: "UA-129019066-8"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-129019066-8"
 
 # Google Tag Manager ID
-gtm: "GTM-PK9SSDF"
+gtm: "UA-129019066-8"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
