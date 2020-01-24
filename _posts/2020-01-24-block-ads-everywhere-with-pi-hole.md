@@ -62,7 +62,6 @@ Simply run
 {% highlight bash %}
 # One line installer
  curl -sSL https://install.pi-hole.net | bash
-
 {% endhighlight %}
  
 
