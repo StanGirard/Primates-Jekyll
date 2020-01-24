@@ -51,7 +51,9 @@ Once the droplet has been deployed, look for its IP address.
 
 Then just log to your Droplet
 {% highlight bash %}
+
 ssh root@<ipaddress>
+  
 {% endhighlight %}
 
     
