@@ -19,8 +19,8 @@ use-site-title: true
 
     <p class="post-meta">
       Posted on {{ post.date | date: site.date_format }}
-       <!-- Add Read Time for the post -->
-       -   {% include read-time.html content=post.content %}
+      <!-- Add Read Time for the post -->
+      - {% include read-time.html content=post.content %}
     </p>
 
     <div class="post-entry-container">
@@ -54,21 +54,23 @@ use-site-title: true
     </div>
     {% endif %}
     <div class="blog-tags">
-      {% if post.author == 1 %}
-      {% assign author = site.data.authors[post.author] %}
+      {% if post.author.size == 1 %}
+      {% for authors in post.author %}
+      {% assign author = site.data.authors[authors] %}
 
       <!-- Personal Info. -->
       Author: <a href="{{ author.web }}">{{ author.name }}</a>
+      {% endfor %}
       {% endif %}
       {% if post.author.size > 1 %}
       Authors:
       {% for authors in post.author %}
-        {% assign author = site.data.authors[authors] %}
-        <a href="{{ author.web }}">{{ author.name }}</a>
+      {% assign author = site.data.authors[authors] %}
+      <a href="{{ author.web }}">{{ author.name }}</a>
       {% endfor %}
       {% endif %}
-     
-     
+
+
     </div>
 
 

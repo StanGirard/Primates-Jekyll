@@ -10,7 +10,8 @@ tags:
 subtitle: AWS Athena - Parsing Gigabytes in seconds
 image: /img/web-crawler.png
 comments: true
-author: stan_girard
+author: 
+  - stan_girard
 published: true
 categories:
   - Cloud
