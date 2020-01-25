@@ -10,7 +10,7 @@ The browser that already has more than **8 million users** finally got out of be
 
 ![brave presentation]({{site.baseurl}}/img/user_upload/brave-presentation.png)
 
-## Why is Brave different from other browsers ? 
+## Why is so Brave different from other browsers ? 
 
 ### It is fast - very fast
 
@@ -41,15 +41,14 @@ It allows me to block all the unwanted things that happen behind curtains that w
 
 ### Support your favorite sites with Brave Rewards
 
-[Brave](https://brave.com/pri301)
+[Brave](https://brave.com/pri301) introduced an Ethereum based token that rewards user attention. 
+It can be safely exchanged between users, publishers and advertisers.
 
+- If a User accepts to see ads, every time he sees an ad he will receive a certain amount of BAT Token.
+- The Publisher will receive the major portion of the ad revenue as BAT Token.
+- A User can choose to give some of the BAT Tokens that he earned to a publisher that he wants to support.
+- A Publisher can also give BAT Tokens to another User or Publisher to promote his work.
 
+Here is an awesome video about the BAT (Basic Attention Token) to fully understand it by the creator of the Mozilla Foundation, Firefox and Javascript.
 
-
-
-
-
-
-
-  
-
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" width="640" height="360" frameborder="0" allowfullscreen></iframe>
