@@ -24,6 +24,15 @@ And because [Brave](https://brave.com/pri301) is built on top on chromium, all t
   
 ### High anonymity and security
 
+![Brave shields on ]({{site.baseurl}}/img/user_upload/brave-shields-on.png)
+
+The [Brave](https://brave.com/pri301)'s Shield is probably one of the best option out there to block Ads, Cookies, unwanted script and all.
+
+It allows me to block all the unwanted things that happen behind curtains that we don't see but don't want. It gives me a choice on how much information I want the website to have. 
+
+
+
+
 
 
 
