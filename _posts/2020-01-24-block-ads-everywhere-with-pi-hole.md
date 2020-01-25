@@ -3,7 +3,8 @@ layout: post
 published: true
 title: Block Ads everywhere with Pi-hole
 subtitle: A DNS sinkhole that protects your devices from ads
-author: stan_girard
+author: 
+  - stan_girard
 tags:
   - Ads
   - AdBlock

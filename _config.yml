@@ -277,11 +277,14 @@ prose:
           alterable: true
       - name: "author"
         field:
-          element: "text"
+          element: "multiselect"
           label: "Author"
           help: "Your author username"
           placeholder: "stan_girard"
           alterable: true
+          options:
+            - name: "Stanislas Girard"
+              value: "stan_girard"
       - name: "tags"
         field:
           element: "multiselect"

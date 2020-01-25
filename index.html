@@ -48,20 +48,29 @@ use-site-title: true
       {% else %}
       {{ post.tags | join: ", " }}
       {% endif %}
-      
+
     </div>
     {% endif %}
     <div class="blog-tags">
-    {% if post.author %}
-    {% assign author = site.data.authors[post.author] %}
+      {% if post.author == 1 %}
+      {% assign author = site.data.authors[post.author] %}
 
-        <!-- Personal Info. -->
-       Author: <a href="{{ author.web }}">{{ author.name }}</a>
-    {% endif %}
-    {% include read-time.html content=post.content %}
-  </div>
-    
-    
+      <!-- Personal Info. -->
+      Author: <a href="{{ author.web }}">{{ author.name }}</a>
+      {% endif %}
+      {% if post.author.size > 1 %}
+      Authors:
+      {% for authors in post.author %}
+        {% assign author = site.data.authors[authors] %}
+        <a href="{{ author.web }}">{{ author.name }}</a>
+      {% endfor %}
+      {% endif %}
+      <!-- Add Read Time for the post -->
+      {% include read-time.html content=post.content %}
+     
+    </div>
+
+
 
   </article>
   {% endfor %}
