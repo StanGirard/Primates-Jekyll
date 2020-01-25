@@ -53,10 +53,23 @@ Here is an awesome video about the [BAT](https://basicattentiontoken.org/) (Basi
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
-Here is a link to the ![basic attention token white paper]({{site.baseurl}}/https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
+Here is a link to the [basic attention token white paper]({{site.baseurl}}/https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
 
-- You get paid for browsing the web
-- You can help publishers by donating BAT Tokens
-
+- **You get paid for browsing the web**
+- **You can help publishers by donating BAT Tokens**
 It makes it the first Browser to use the blockchain technology in its core functionalities.
 More information about [Ethereum](https://ethereum.org/) here and Basic Authentication Token [here](https://basicattentiontoken.org/)
+
+## A huge list of features
+
+- **Compatible with almost every device that you have.**
+- **Easily sync all your devices**
+- **Fast & easy migration from Chrome, Firefox, etc ...**
+- **High Security**
+- **Anonymous browsing**
+- **Ads that respect your privacy**
+
+What are you waiting for ?! [Brave](https://brave.com/pri301) will change the way you browse !
+
+
+
