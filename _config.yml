@@ -23,6 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Post An Article: "help/howto"
   Resources:
+    - Admin: "http://prose.io"
     - H2GD - Collection: "https://guide.devlup.fr/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #Author's home: "http://deanattali.com"
