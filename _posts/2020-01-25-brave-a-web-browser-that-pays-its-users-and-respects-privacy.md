@@ -16,7 +16,7 @@ The browser that already has more than **8 million users** finally got out of be
 
 <iframe src="https://player.vimeo.com/video/371512354?color=fb542b&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-[Brave](https://brave.com/pri301) has probably given me one of the most awesome browsing experience have ever had. Even thought it is based on Chromium, i've had astounishing results browsing. 
+[Brave](https://brave.com/pri301) has probably given me one of the most awesome browsing experience have ever had. Even thought it is based on Chromium, i've had astounishing results browsing compared to Chrome. 
 
 My daily browser went from Chrome to [Brave](https://brave.com/pri301) without hesitation.
 And because [Brave](https://brave.com/pri301) is built on top on chromium, all the plugins I used to have on Chrome are compatible with it.
@@ -30,11 +30,11 @@ The [Brave](https://brave.com/pri301)'s Shield is probably one of the best optio
 
 It allows me to block all the unwanted things that happen behind curtains that we don't see but don't want. It gives me a choice on how much information I want the website to have. 
 
-- Ad blocking
-- Fingerprinting prevention
-- Cookie control
-- HTTPS upgrading
-- Block scripts
+- **Ad blocking**
+- **Fingerprinting prevention**
+- **Cookie control**
+- **HTTPS upgrading**
+- **Block scripts**
 - Per-site shield settings
 - Configurable global shield defaults
 - Send “Do not track” with browsing requests
