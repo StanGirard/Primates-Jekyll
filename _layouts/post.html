@@ -3,7 +3,6 @@ layout: base
 ---
 
 {% include header.html type="post" %}
-{% assign author = site.data.authors[page.author] %}
 
 <div class="container">
   <div class="row">
@@ -43,12 +42,8 @@ layout: base
 
 
       <!-- Output author details if some exist. -->
-      {% if author %}
-      <span>
-        <!-- Personal Info. -->
-        Written by <a href="{{ author.web }}">{{ author.name }}</a>
-      </span>
-      {% endif %}
+      
+
 
       {% if page.tags.size > 0 %}
       <div class="blog-tags">
@@ -62,6 +57,24 @@ layout: base
         {% endif %}
       </div>
       {% endif %}
+
+      <!-- AUTHORS -->
+      {% if page.author.size == 1 %}
+      {% for authors in page.author %}
+      {% assign author = site.data.authors[authors] %}
+
+      <!-- Personal Info. -->
+      Author: <a href="{{ author.web }}">{{ author.name }}</a>
+      {% endfor %}
+      {% endif %}
+      {% if page.author.size > 1 %}
+      Authors:
+      {% for authors in page.author %}
+      {% assign author = site.data.authors[authors] %}
+      <a href="{{ author.web }}">{{ author.name }}</a>
+      {% endfor %}
+      {% endif %}
+
 
       {% if page.social-share %}
       {% include social-share.html %}
@@ -81,6 +94,8 @@ layout: base
         </li>
         {% endif %}
       </ul>
+
+      
 
       {% if page.comments %}
       <div class="disqus-comments">
