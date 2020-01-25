@@ -19,6 +19,8 @@ use-site-title: true
 
     <p class="post-meta">
       Posted on {{ post.date | date: site.date_format }}
+       <!-- Add Read Time for the post -->
+       -   {% include read-time.html content=post.content %}
     </p>
 
     <div class="post-entry-container">
@@ -65,8 +67,7 @@ use-site-title: true
         <a href="{{ author.web }}">{{ author.name }}</a>
       {% endfor %}
       {% endif %}
-      <!-- Add Read Time for the post -->
-      {% include read-time.html content=post.content %}
+     
      
     </div>
 
