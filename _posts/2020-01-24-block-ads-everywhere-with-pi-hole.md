@@ -73,3 +73,18 @@ ssh root@<ipaddress>
 ![pihole-installer.png]({{site.baseurl}}/img/user_upload/pihole-installer.png)
   
 - **Save the admin password**
+  ![pihole-end-password.png]({{site.baseurl}}/img/user_upload/pihole-end-password.png)
+
+  
+## **Pi-Hole Admin Panel**
+  
+  - Go to `http://<yourpiholeip>`
+  - Login with your password
+  If you forgot the password then connect via SSH to your server and run `sudo pihole -a -p`
+
+## Connect your devices
+  
+  
+
+
+
