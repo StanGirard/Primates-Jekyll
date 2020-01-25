@@ -30,6 +30,15 @@ The [Brave](https://brave.com/pri301)'s Shield is probably one of the best optio
 
 It allows me to block all the unwanted things that happen behind curtains that we don't see but don't want. It gives me a choice on how much information I want the website to have. 
 
+- Ad blocking
+- Fingerprinting prevention
+- Cookie control
+- HTTPS upgrading
+- Block scripts
+- Per-site shield settings
+- Configurable global shield defaults
+- Send “Do not track” with browsing requests
+
 
 
 
