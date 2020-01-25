@@ -5,6 +5,15 @@ title: Brave - A Web Browser that pays its users and respects privacy
 author:
   - stan_girard
 image: /img/user_upload/brave-lion.png
+categories:
+  - Browser
+subtitle: A blockchain powered browser that rewars attention
+tags:
+  - Browser
+  - Blockchain
+  - Privacy
+  - BAT
+date: '2020-01-25'
 ---
 The Browser that already has more than **8 million users** finally got out of beta and launched its version 1.0. It is the first mainstream Browser that pays its users, respects privacy while being user-friendly and fast. 
 
