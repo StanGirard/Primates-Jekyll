@@ -49,6 +49,14 @@ It can be safely exchanged between users, publishers and advertisers.
 - A User can choose to give some of the BAT Tokens that he earned to a publisher that he wants to support.
 - A Publisher can also give BAT Tokens to another User or Publisher to promote his work.
 
-Here is an awesome video about the BAT (Basic Attention Token) to fully understand it by the creator of the Mozilla Foundation, Firefox and Javascript.
+Here is an awesome video about the [BAT](https://basicattentiontoken.org/) (Basic Attention Token) to fully understand it by the creator of the Mozilla Foundation, Firefox and Javascript.
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Here is a link to the ![basic attention token white paper]({{site.baseurl}}/https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
+
+- You get paid for browsing the web
+- You can help publishers by donating BAT Tokens
+
+It makes it the first Browser to use the blockchain technology in its core functionalities.
+More information about [Ethereum](https://ethereum.org/) here and Basic Authentication Token [here](https://basicattentiontoken.org/)
