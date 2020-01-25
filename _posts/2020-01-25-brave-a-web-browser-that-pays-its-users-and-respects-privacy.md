@@ -24,7 +24,9 @@ The Browser that already has more than **8 million users** finally got out of be
 
 ### It is fast - very fast
 
-<iframe src="https://player.vimeo.com/video/371512354?color=fb542b&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div style="--aspect-ratio: 16/9;">
+<iframe src="https://player.vimeo.com/video/371512354?color=fb542b&title=0&byline=0&portrait=0"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
 [Brave](https://brave.com/pri301) has probably given me one of the most awesome browsing experience have ever had. Even though it is built on Chromium, I've had astonishing results browsing compared to Chrome. 
 
@@ -61,7 +63,9 @@ It can be safely exchanged between users, publishers, and advertisers.
 
 Here is an excellent video about the [BAT](https://basicattentiontoken.org/) (Basic Attention Token) to fully understand it by the creator of the Mozilla Foundation, Firefox, and Javascript.
 
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<div style="--aspect-ratio: 16/9;">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Here is a link to the [basic attention token white paper]({{site.baseurl}}/https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
 
