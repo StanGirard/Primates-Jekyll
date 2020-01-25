@@ -39,6 +39,12 @@ It allows me to block all the unwanted things that happen behind curtains that w
 - Configurable global shield defaults
 - Send “Do not track” with browsing requests
 
+### Support your favorite sites with Brave Rewards
+
+[Brave](https://brave.com/pri301)
+
+
+
 
 
 
