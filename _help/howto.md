@@ -21,9 +21,9 @@ Here are a few steps to help you get started on blogging
 ### Fork Primates Repo
 ---
 
-First of all you need to fork the project
+First of all, you need to fork the project.
 
-> You need to have a github account
+> You need to have a GitHub account
 
 ![fork-primates.png]({{site.baseurl}}/img/user_upload/fork-primates.png)
 
@@ -32,9 +32,9 @@ First of all you need to fork the project
 ### Setup Github Pages on Fork
 ---
 
-Do this step only if you want to be able to visualize your post before making a pull request to the main repo
+Do this step only if you want to be able to visualize your Post before making a pull request to the principal repository.
 
-Then you need to host the Fork on Github Pages
+Then it would be best if you hosted the Fork on Github Pages.
 
 - Go to Settings
 - Choose Master Branch
@@ -46,9 +46,9 @@ Then you need to host the Fork on Github Pages
 ### Check that your installation works
 ---
 
-Go to `<yourGithubUsername>.github.io/Primates` to see if the github pages work
+Go to `<yourGithubUsername>.github.io/Primates` to see if the GitHub pages work.
 
-If that is successfull then your installation is complete
+If that is successful, then your installation is complete.
   
 
 
@@ -61,7 +61,7 @@ If that is successfull then your installation is complete
 
 ![prose-login.png]({{site.baseurl}}/img/user_upload/prose-login.png)
 
-Give access to Prose to your Github Account
+Give access to Prose to your Github Account.
 
 ### Go to Primates Project
 ---
@@ -70,14 +70,14 @@ Choose your Primates Project
 
 ![prose-primate-chose.png]({{site.baseurl}}/img/user_upload/prose-primate-chose.png)
 
-If everything is successfull you should end up on a page that looks like that.
+If everything is successful, you should end up on a page that looks like that.
 
 ![prose-archi.png]({{site.baseurl}}/img/user_upload/prose-archi.png)
 
 
 - _data: Stores information about the authors, etc
 - _post: Place where the posts are saved
-- help: Page that are added such as this one
+- help: Pages that are added such as this one
 
 ### Create an author
 
@@ -92,7 +92,7 @@ Add a new author:
     web: <Your website or Profile Page>
 ```
 
-Don't forget to save !
+Don't forget to save it!
 
 ### Create a post
 
@@ -100,11 +100,11 @@ Go **_post** and click on the **create button**
 
 ![post-create-metadata.png]({{site.baseurl}}/img/user_upload/post-create-metadata.png)
 
-Then Click on the metadata on the right
+Then click on the metadata on the right.
 
 Metadata:
 - Subtitle: subtitle of the article
-- Big Image: landscape image at the top of the article. It must be in the **img/user_big_img** folder
+- Big image: landscape image at the top of the article. It must be in the **img/user_big_img** folder
 - Image: Little image in a circle that represents your Post. Must be chosen from the images in the folders already in **img/**
 - Author: Add your author username
 - Tags: Add the tags for your article
@@ -115,12 +115,10 @@ Metadata:
 
 ## Pull Request
 
-Once your article is done, make a pull request to merge your project with the main repo.
-If you've followed all the guidelines the article should be accepted within a day.
+Once you are done with your article, make a pull request to merge your project with the main repo.
+If you've followed all the guidelines, the article should then be accepted within a day.
 
 
-At anytime you can see the changes to your article on the `http://<yourGithubUsername>.github.io/Primates`
+At any time you can see the changes to your article on the `http://<yourGithubUsername>.github.io/Primates`
 
-Good luck ! 
-
-
+Good luck!
