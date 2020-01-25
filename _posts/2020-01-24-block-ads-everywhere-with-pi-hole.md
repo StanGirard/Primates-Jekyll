@@ -60,7 +60,7 @@ ssh root@<ipaddress>
 ### Install Pi-Hole on your freshly installed Ubuntu or [Raspbery-Pi 4/3](https://amzn.to/38InYI1)
   
 
-- ** Run**
+- **Run**
 
 {% highlight bash %}
 # One line installer
