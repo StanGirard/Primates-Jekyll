@@ -80,6 +80,21 @@ ssh root@<ipaddress>
 
 ## Re-configure your router so that Pi-hole is the DNS Server for your network
   
+Doing this will make sure that it has a minimal impact on your current network setup. Most routers are by default the DNS Server for clients of the network. By replacing the DNS server used by your router with Pi-Hole DNS Server, it means that all the devices on your network will use that DNS Server.
+  
+- Log into your router as an administrator
+- Set the primary and secondary DNS Server to the IP address of your Pi-Hole installation.
+> If you get stuck try searching how to change your DNS configuration online based on your router device
+- Save your settings, reboot all your devices and enjoy a network wide ad blocking.
+
+
+## Use Pi-Hole as per device DNS Server
+  
+This is a more tedious approach but you can change the DNS Server used by default by your devices.
+- Do a quick search on how to change the default DNS Server of your device
+- Change the primary DNS Server address to your Pi-Hole Server
+
+> This is not a recommended installation. Please be aware that you could encounter certain issues.
 
   
 ## **Pi-Hole Admin Panel**
@@ -87,6 +102,10 @@ ssh root@<ipaddress>
   - Go to `http://<yourpiholeip>`
   - Login with your password
   If you forgot the password then connect via SSH to your server and run `sudo pihole -a -p`
+  
+  
+
+
   
   
   
