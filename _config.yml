@@ -102,9 +102,9 @@ gtm: "UA-129019066-8"
 disqus: "primates"
 
 algolia:
-   application_id: pl5Y7153X571
-   index_name: primates
-   search_only_api_key: 024e0ae0988fd28120f0457ca90cee1a
+  application_id: pl5Y7153X571
+  index_name: primates
+  search_only_api_key: 024e0ae0988fd28120f0457ca90cee1a
 
 
 # Excerpt Word Length
