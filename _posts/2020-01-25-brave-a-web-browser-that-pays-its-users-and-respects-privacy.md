@@ -12,8 +12,13 @@ The browser that already has more than **8 million users** finally got out of be
 
 ## Why is Brave different from other browsers ? 
 
-### It is fast
+### It is fast - very fast
 
 <iframe src="https://player.vimeo.com/video/371512354?color=fb542b&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p>
+
+[Brave](https://brave.com/pri301) has probably given me one of the most awesome browsing experience have ever had. 
+
+  
+### High anonymity and security
+  
 
