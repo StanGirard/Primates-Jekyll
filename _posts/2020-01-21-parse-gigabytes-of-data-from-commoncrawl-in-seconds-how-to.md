@@ -1,16 +1,19 @@
 ---
-title: Parse gigabytes of data from commoncrawl in seconds - How To
-date: 2020-01-21 00:00:00 -08:00
-tags:
-- Cloud
-- Athena
-- CommonCrawl
-- Crawl
 layout: post
+title: Parse Petabytes of data from CommonCrawl in seconds
+date: 'Tue Jan 21 2020 09:00:00 GMT+0100 (heure normale d’Europe centrale)'
+tags:
+  - Cloud
+  - Athena
+  - CommonCrawl
+  - Crawl
 subtitle: AWS Athena - Parsing Gigabytes in seconds
-image: "/img/web-crawler.png"
+image: /img/web-crawler.png
 comments: true
 author: stan_girard
+published: true
+categories:
+  - Cloud
 ---
 
 [CommonCrawl](https://commoncrawl.org/) is a non-profit organization that crawls millions of websites every month and stores all the data on [Amazon S3](https://aws.amazon.com/s3/). 
