@@ -322,3 +322,4 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - github-pages
+  - jekyll-algolia
