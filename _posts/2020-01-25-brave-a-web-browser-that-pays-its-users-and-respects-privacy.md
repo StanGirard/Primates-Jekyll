@@ -7,7 +7,7 @@ author:
 image: /img/user_upload/brave-lion.png
 categories:
   - Browser
-subtitle: A blockchain powered browser that rewars attention
+subtitle: A blockchain powered browser that rewards attention
 tags:
   - Browser
   - Blockchain
@@ -80,6 +80,3 @@ More information about [Ethereum](https://ethereum.org/) here and Basic Authenti
 - **Ads that respect your privacy**
 
 What are you waiting for ?! [Brave](https://brave.com/pri301) will change the way you browse!
-
-
-
