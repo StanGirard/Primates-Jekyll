@@ -268,6 +268,14 @@ prose:
           help: "Add a big image to your post. **/img/user_big_img/img.png**"
           placeholder: "Landscape Image "
           alterable: true
+          
+      - name: "share-img"
+        field:
+          element: "text"
+          label: "Share Image"
+          help: "The full URL of the image you want to appear when the link is shared"
+          placeholder: "https://primates/dev/img/test.png "
+          alterable: true
       - name: "image"
         field:
           element: "text"
