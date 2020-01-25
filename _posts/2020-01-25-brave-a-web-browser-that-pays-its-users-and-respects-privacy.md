@@ -39,9 +39,9 @@ It allows me to block all the unwanted things that happen behind curtains that w
 - Configurable global shield defaults
 - Send “Do not track” with browsing requests
 
-### Support your favorite sites with Brave Rewards
+### Support your favorite content creators with Brave Rewards
 
-[Brave](https://brave.com/pri301) introduced an Ethereum based token that rewards user attention. 
+[Brave](https://brave.com/pri301) introduced an **Ethereum based token** that **rewards user attention**. 
 It can be safely exchanged between users, publishers and advertisers.
 
 - If a User accepts to see ads, every time he sees an ad he will receive a certain amount of BAT Token.
