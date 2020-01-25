@@ -57,7 +57,7 @@ Then just log to your Droplet
 ssh root@<ipaddress>
 {% endhighlight %}
   
-### Installation
+### Install Pi-Hole on your freshly installed Ubuntu or [Raspbery-Pi 4/3](https://amzn.to/38InYI1)
   
 
 - **Simply run**
@@ -76,13 +76,19 @@ ssh root@<ipaddress>
   ![pihole-end-password.png]({{site.baseurl}}/img/user_upload/pihole-end-password.png)
 
   
+
+
+## Re-configure your router so that Pi-hole is the DNS Server for your network
+  
+
+  
 ## **Pi-Hole Admin Panel**
   
   - Go to `http://<yourpiholeip>`
   - Login with your password
   If you forgot the password then connect via SSH to your server and run `sudo pihole -a -p`
-
-## Connect your devices
+  
+  
   
   
 
