@@ -48,14 +48,19 @@ use-site-title: true
       {% else %}
       {{ post.tags | join: ", " }}
       {% endif %}
-      {% if post.author %}
+      
+    </div>
+    {% endif %}
+    <div class="blog-tags">
+    {% if post.author %}
     {% assign author = site.data.authors[post.author] %}
 
         <!-- Personal Info. -->
        Author: <a href="{{ author.web }}">{{ author.name }}</a>
     {% endif %}
-    </div>
-    {% endif %}
+    {% include read-time.html content=post.content %}
+  </div>
+    
     
 
   </article>
