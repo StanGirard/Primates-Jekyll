@@ -20,12 +20,9 @@ description: Guides for developers
 
 # List of links in the navigation bar
 navbar-links:
-  About Me:
+  Authors:
     - Stanislas Girard: "authors/stangirard" 
   Post An Article: "help/howto"
-  Resources:
-    - Admin: "http://prose.io"
-    - H2GD - Collection: "https://guide.devlup.fr/"
   Search: "help/search"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
 
