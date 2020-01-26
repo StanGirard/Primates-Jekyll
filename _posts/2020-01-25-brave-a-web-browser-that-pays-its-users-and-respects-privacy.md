@@ -15,6 +15,7 @@ tags:
   - BAT
   - Brave
 date: '2020-01-25'
+share-img: 'https://primates.dev/img/user_upload/brave-presentation.png'
 ---
 The Browser that already has more than **8 million users** finally got out of beta and launched its version 1.0. It is the first mainstream Browser that pays its users, respects privacy while being user-friendly and fast. 
 
