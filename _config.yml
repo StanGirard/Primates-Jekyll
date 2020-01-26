@@ -20,7 +20,8 @@ description: Guides for developers
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About Me:
+    - Stanislas Girard: "authors/stangirard" 
   Post An Article: "help/howto"
   Resources:
     - Admin: "http://prose.io"
@@ -134,6 +135,9 @@ kramdown:
 collections:
   help:
     output: true
+  authors:
+    output: true
+
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
