@@ -142,7 +142,7 @@ collections:
 # Default YAML values (more information on Jekyll's site)
 defaults:
   - scope:
-      path: "/blog"
+      path: ""
       type: "posts"
     values:
       layout: "post"
