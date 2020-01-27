@@ -58,15 +58,21 @@ The page needs to be **displayed as quickly as possible** to show the maximum am
 
 So you have understood that good SEO (search engine optimization) starts with improving the speed and performance of your website. It is essential to **make your website perform equally on computers and mobiles.**
 
-To find out what's wrong with your website, we advise you to use the Google [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) tool.
+### Google Page Speed Insights
+
+To find out what's wrong with your website, we advise you to use the Google [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool.
 
 > This tool developed by Google allows you to analyze the loading time of your website.
 
 Google gives you a speed score on mobile and computer and explains the different points that need to be optimized to improve your performance.
 
-Most websites lose much performance because their images are not optimized. On some websites, images account for up to 90% of the loading time.
+![PageSpeed Insight Primates.dev]({{site.baseurl}}/img/user_upload/pagespeedinsight-primates.dev.png)
 
-We recommend using PNG, JPEG, and WebP. These formats are optimized for the web, allowing efficient compression with sizes that depend on the resolution of the device. There is no point in downloading a 4k image to a phone with 720 pixels.
+### JPEG and WebP for your image format
+
+Most websites lose much performance because their **images are not optimized**. On some websites, images account for **up to 90% of the loading time**.
+
+We recommend using  JPEG and WebP. These formats are optimized for the web, allowing efficient compression with sizes that depend on the resolution of the device. There is no point in downloading a 4k image to a phone with 720 pixels.
 
 You probably know Wordpress, Wix, ...
 
