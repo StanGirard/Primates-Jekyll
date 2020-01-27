@@ -52,15 +52,16 @@ By following these tips, you will improve your loading time. Beware! These tips 
 
  >A Microsoft study shows that between 2000 and 2016, the average attention span of a human being has decreased from 12 seconds to 8 seconds, which is less than that of a goldfish (9 seconds)!
 
-What does this mean for your visitors?
+**What does this mean for your visitors?**
 
-The page needs to be displayed as quickly as possible to show the maximum amount of content to the user before his or her attention decreases.
+The page needs to be **displayed as quickly as possible** to show the maximum amount of content to the user before his or her attention decreases.
 
-So you have understood that good SEO (search engine optimization) starts with improving the speed and performance of your website. It is essential to make your website perform equally on computers and mobiles.
+So you have understood that good SEO (search engine optimization) starts with improving the speed and performance of your website. It is essential to **make your website perform equally on computers and mobiles.**
 
-To find out what's wrong with your website, we advise you to use the Google Page Speed Insights tool.
+To find out what's wrong with your website, we advise you to use the Google [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/) tool.
 
-This tool developed by Google allows you to analyze the loading time of your website.
+> This tool developed by Google allows you to analyze the loading time of your website.
+
 Google gives you a speed score on mobile and computer and explains the different points that need to be optimized to improve your performance.
 
 Most websites lose much performance because their images are not optimized. On some websites, images account for up to 90% of the loading time.
