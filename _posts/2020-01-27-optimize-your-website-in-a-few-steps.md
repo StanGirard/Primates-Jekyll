@@ -90,7 +90,7 @@ You can't show everything. It is crucial to select the critical content that the
 
 >  The best F1 driver will never win a Grand Prix if his car is a 2cv.
 
-### Choose your hosting
+### Choose your hosting wisely
 
 You must choose your hosting platform carefully! Its impact is much more important than you think!
 
