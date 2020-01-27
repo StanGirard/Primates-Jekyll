@@ -74,57 +74,73 @@ Most websites lose much performance because their **images are not optimized**. 
 
 We recommend using  JPEG and WebP. These formats are optimized for the web, allowing efficient compression with sizes that depend on the resolution of the device. There is no point in downloading a 4k image to a phone with 720 pixels.
 
-You probably know Wordpress, Wix, ...
+### Content Management Systems: Plug-ins Hell
+
+You probably know **Wordpress**, **Wix**, ...
 
 All these CMS (content management systems) allow you to easily and quickly create your website and allow users to add many plug-ins or scripts on your website.
 
 We advise you to be very careful with plug-ins and scripts, as they can significantly reduce your loading speed. Only use the ones you need.  
 
 
-A large part of browsing and searching on Google is on mobile devices, so it is imperative to optimize your website for mobile devices (tablets and smartphones).
+A large part of browsing and searching on Google is on mobile devices, so it is imperative to **optimize your website for mobile devices** (tablets and smartphones).
 
-Due to the lower performance and size of mobile devices compared to computers, it is essential to lighten the content visible on the screen on the mobile version of your website.
+Due to the lower performance and size of mobile devices compared to computers, it is essential to **lighten the content visible on the screen on the mobile version of your website.**
 You can't show everything. It is crucial to select the critical content that the user needs to see to optimize navigation on these devices.
 
-Last point: The best F1 driver will never win a Grand Prix if his car is a 2cv.
+>  The best F1 driver will never win a Grand Prix if his car is a 2cv.
+
+### Choose your hosting
 
 You must choose your hosting platform carefully! Its impact is much more important than you think!
+
 The speed of it impacts the loading time of your pages and reduces the quality of the user experience and your natural referencing.
 
 Here are already some key elements to start optimizing your blog or shop and improve your search engine optimization. 
 
-II - How to optimize your tags, titles, meta descriptions, and keywords to maximize your SEO?
+### How to optimize your tags, titles, meta descriptions, and keywords to maximize your SEO?
 
-First of all, the title must be more or less 50 characters long and must naturally include as many keywords as possible.
+First of all, **the title must be more or less 50 characters lon**g and must naturally include as many keywords as possible.
 Don't try to make extended titles. Google doesn't like that!
 
-The same goes for URLs, just 3 to 5 words. No more!
+The same goes for **URLs, just 3 to 5 words**. No more!
 
 Subtitles must naturally contain the maximum number of keywords or synonyms without being too long.
 
-For your articles, try to write at least 1500 words (500 at the strict minimum). It allows search engines to understand the theme of your article or page and to better reference you on a more significant number of queries.
-Don't forget that the quality of your text is also paramount. Even if your content is optimized for SEO, if the user doesn't like it, it won't lead to anything!
+### Article should be at least 1500 words long
+
+For your articles, try to write at least **1500 words** (500 at the strict minimum).
+
+It allows search engines to understand the theme of your article or page and to better reference you on a more significant number of queries.
+
+**Don't forget that the quality of your text is also paramount**.
+Even if your content is optimized for SEO, if the user doesn't like it, it won't lead to anything!
 For your images, don't forget to put the alt tag and to put one or more keywords in the file name.
 
-Tip: You can also create links between your pages and your content by using anchor text keywords.
+> Tip: You can also create links between your pages and your content by using anchor text keywords.
+
 In addition to improving your natural referencing, this gives a subtle effect when the user clicks on it, and the page sends him directly to the right section. 
 
 The tedious part is over! With all this data, search engines have a better chance of making it easier to reference you. And your ranking should improve! 
 
-III - Integration of social networks in your SEO strategy
+### Integration of social networks in your SEO strategy
 
-It is essential that from the beginning, you are very active on social networks. Do not hesitate to share links to your articles on different networks by putting attractive images to generate traffic.
+It is essential that from the beginning, you are **very active on social networks**. Do not hesitate to share links to your articles on different networks by putting attractive images to generate traffic.
 
-It seems that Mark Zuckerberg made Facebook known this way!
+> It seems that Mark Zuckerberg made Facebook known this way!
 
-A link on a forum or a site in the same theme as your site also improves your SEO. 
+**A link on a forum or a site in the same theme as your site also improves your SEO.**
 Be careful not to spam the web with links to your pages! Also, be meticulous not to post links from your website on sites that are not in the same theme as you. Search engines will have more difficulties to find your topic and, therefore, to reference you.
 
-It is also essential to have on each page of your site a module to share on social networks. For example, a "share" button or a comment plug-in integrated to Facebook, as you can see at the bottom of this article. However, be careful about privacy protection. You must warn users that you use cookies and other scripts on your site. You can incur a hefty fine if you don't notify users.
+It is also essential to have on each page of your site a module to share on social networks. For example, a "share" button or a comment plug-in integrated to Facebook. 
+
+However, **be careful about privacy protection**. **You must warn users that you use cookies and other scripts on your site. You can incur a hefty fine if you don't notify users.**
 
 Beware, too many plug-ins, decrease your loading speed and, therefore, your SEO. It's up to you to find out how to do it!
 
-Create a Google My Business, Facebook, Twitter, and LinkedIn page all connected to your site. Web-users will be able to share the content of your pages and articles more easily on social networks.
+#### Social Accounts 
+
+Create a [Google My Business](https://www.google.com/intl/en_us/business/), Facebook, Twitter, and LinkedIn page all connected to your site. Web-users will be able to share the content of your pages and articles more easily on social networks.
 
 Don't forget to fill in the Meta title and Meta description tags on your pages to determine the title and description when sharing.
 
