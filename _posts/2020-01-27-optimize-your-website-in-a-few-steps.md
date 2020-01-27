@@ -172,9 +172,9 @@ If you have followed all our advice so far, you probably want to know what the i
 You will be able to see what you still need to improve to optimize your performance and your natural referencing.
 
 Here are three essential tools:
-- Google Universal Analytics allows you to track your traffic statistics.
-- Google Search Console to track your ranking on Google, monitor issues, and see the queries users are looking for when they come to your site.
-- Bing Webmaster Tools to see your position in search results in Bing, and yes, Bing still exists! 
+- [Google Universal Analytics](https://analytics.google.com/analytics/web/) allows you to track your traffic statistics.
+- [Google Search Console](https://search.google.com/search-console/about) to track your ranking on Google, monitor issues, and see the queries users are looking for when they come to your site.
+- [Bing Webmaster Tools](https://www.bing.com/toolbox/webmaster) to see your position in search results in Bing, and yes, Bing still exists! 
 
 If you follow all our tips, your website should see its SEO score improve thanks to optimized loading speed and more thematic content. You should appear in more search results, and Internet users will appreciate your website more. 
 
