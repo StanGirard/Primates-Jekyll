@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Optimize your website in a few steps
+title: How to optimize your website in a few steps
 categories:
   - SEO
   - Optimization
