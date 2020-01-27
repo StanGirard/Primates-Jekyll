@@ -74,6 +74,7 @@ p a:hover::before{
 blockquote {
   color: #808080;
   font-style: italic;
+  border-left: 5px solid #010659;
 }
 blockquote p:first-child {
   margin-top: 0;
@@ -871,6 +872,8 @@ color: #68826F;
     height: 100%;
   }  
 }
+
+
 
 /* END OF IFRAME RESPONSIVE */
 
