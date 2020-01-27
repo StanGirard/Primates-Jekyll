@@ -15,47 +15,64 @@ subtitle: SEO - Search Engine Optimization
 image: /img/user_upload/seo-icon.jpg
 bigimg: /img/user_big_img/seo.jpg
 ---
-SEO or Search Engine Optimization enables you to reach more potential customers or users with the equivalent content on your website. Spending time optimizing your website to be as SEO friendly as possible yields higher results.
+**SEO or Search Engine Optimization** enables you to reach more potential customers or users with the equivalent content on your website. Spending time optimizing your website to be as SEO friendly as possible yields higher results.
 
-We'll try to demonstrate how to :
-Apply a good SEO (Search Engine Optimization) strategy
-Use good practices to optimize your website in both performance and quality.
+**We'll demonstrate how to :**
+- Apply a good SEO (Search Engine Optimization) strategy
+- Use good practices to optimize your website in both performance and quality.
 
-It is essential to increase the quality of your website to generate more traffic. You'll either make more sales or get more readers, therefore increasing your revenues. SEO should not be taken likely. It is one of the main factors that impact your success or demise.
+It is essential to **increase the quality of your website to generate more traffic**. You'll either make **more sales or get more readers**, therefore increasing your revenues. SEO should not be taken likely. It is one of the main factors that impact your success or demise.
 
-Why should you spend time learning about search engine optimization?
+![SEOIMG.jpg]({{site.baseurl}}/img/user_upload/SEOIMG.jpg)
 
-It is your best marketing asset. It brings you quality traffic on your website, blog, or shops for free. What if you could attract thousands of users with just your content and not the ads you are running?
+<br/>
+## Why should you spend time learning about search engine optimization?
 
-Why should you optimize the speed of your website?
-The loading speed of a site is critical! A website that loads quickly will be more appreciated by its users, but especially by Google and other search engines.
+It is your **best marketing asset**. It brings you quality traffic on your website, blog, or shops for free. _What if you could attract thousands of users with just your content and not the ads you are running?_
 
-Google references nearly 300,000 billion pages; imagine how long it takes to visit everything. Google allocates a certain amount of time for each site.
+<br/>
+
+### Why do you have to optimize the speed of your website?
+
+> The loading speed of a site is critical!
+
+A website that loads quickly will be more appreciated by its users, but especially by Google and other search engines.
+
+> Google references nearly 300,000 billion pages; imagine how long it takes to visit everything.
+
+Google allocates a certain amount of time for each site.
 If your website takes 1 second to load, Google will spend ten times more time on your website compared to a website that loads in 10 seconds.
 These are the main reasons why optimizing your website is very important.
 
-I - Optimize your website and speed up the loading speed of your pages.
+### Optimize your website and speed up the loading speed of your pages.
 
 By following these tips, you will improve your loading time. Beware! These tips are not always easy to implement.
 
-Why is loading time an essential criterion for your visitors?
+**Why is loading time an essential criterion for your visitors?**
 
-A Microsoft study shows that between 2000 and 2016, the average attention span of a human being has decreased from 12 seconds to 8 seconds, which is less than that of a goldfish (9 seconds)!
+ >A Microsoft study shows that between 2000 and 2016, the average attention span of a human being has decreased from 12 seconds to 8 seconds, which is less than that of a goldfish (9 seconds)!
 
-What does this mean for your visitors?
+**What does this mean for your visitors?**
 
-The page needs to be displayed as quickly as possible to show the maximum amount of content to the user before his or her attention decreases.
+The page needs to be **displayed as quickly as possible** to show the maximum amount of content to the user before his or her attention decreases.
 
-So you have understood that good SEO (search engine optimization) starts with improving the speed and performance of your website. It is essential to make your website perform equally on computers and mobiles.
+So you have understood that good SEO (search engine optimization) starts with improving the speed and performance of your website. It is essential to **make your website perform equally on computers and mobiles.**
 
-To find out what's wrong with your website, we advise you to use the Google Page Speed Insights tool.
+### Google Page Speed Insights
 
-This tool developed by Google allows you to analyze the loading time of your website.
+To find out what's wrong with your website, we advise you to use the Google [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) tool.
+
+> This tool developed by Google allows you to analyze the loading time of your website.
+
 Google gives you a speed score on mobile and computer and explains the different points that need to be optimized to improve your performance.
 
-Most websites lose much performance because their images are not optimized. On some websites, images account for up to 90% of the loading time.
+![PageSpeed Insight Primates.dev]({{site.baseurl}}/img/user_upload/pagespeedinsight-primates.dev.png)
 
-We recommend using PNG, JPEG, and WebP. These formats are optimized for the web, allowing efficient compression with sizes that depend on the resolution of the device. There is no point in downloading a 4k image to a phone with 720 pixels.
+### JPEG and WebP for your image format
+
+Most websites lose much performance because their **images are not optimized**. On some websites, images account for **up to 90% of the loading time**.
+
+We recommend using  JPEG and WebP. These formats are optimized for the web, allowing efficient compression with sizes that depend on the resolution of the device. There is no point in downloading a 4k image to a phone with 720 pixels.
 
 You probably know Wordpress, Wix, ...
 
