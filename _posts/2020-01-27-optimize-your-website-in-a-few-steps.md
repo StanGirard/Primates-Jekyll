@@ -23,6 +23,9 @@ bigimg: /img/user_big_img/seo.jpg
 
 It is essential to **increase the quality of your website to generate more traffic**. You'll either make **more sales or get more readers**, therefore increasing your revenues. SEO should not be taken likely. It is one of the main factors that impact your success or demise.
 
+![SEOIMG.jpg]({{site.baseurl}}/img/user_upload/SEOIMG.jpg)
+
+
 ## Why should you spend time learning about search engine optimization?
 
 It is your best marketing asset. It brings you quality traffic on your website, blog, or shops for free. What if you could attract thousands of users with just your content and not the ads you are running?
