@@ -68,7 +68,7 @@ Here is an excellent video about the [BAT](https://basicattentiontoken.org/) (Ba
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/209336437" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Here is a link to the [basic attention token white paper]({{site.baseurl}}/https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
+Here is a link to the [basic attention token white paper](https://basicattentiontoken.org/wp-content/uploads/2017/05/BasicAttentionTokenWhitePaper-4.pdf)
 
 - **You get paid for browsing the web**
 - **You can help publishers by donating BAT Tokens**
