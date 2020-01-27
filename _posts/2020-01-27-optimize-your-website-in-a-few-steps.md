@@ -144,32 +144,38 @@ Create a [Google My Business](https://www.google.com/intl/en_us/business/), Face
 
 Don't forget to fill in the Meta title and Meta description tags on your pages to determine the title and description when sharing.
 
-IV - Optimize your website for the user experience?
+### Optimize your website for the user experience
  
 After all, it is the user who searches for your site on Google!
 
 So let's talk about ergonomic optimization. With our advice, you should be able to make your site more attractive to the Internet user, whether on a computer or mobile.
 
-It is essential to have a transparent, easily accessible, and readable menu. Take care that your menus are not too complicated and that the user can easily access information.
+- It is essential to have a transparent, easily accessible, and readable menu.
+
+Take care that your menus are not too complicated and that the user can easily access information.
 The user should not spend too much time to find what he is looking for on your menu, so it is essential to optimize it.
  
-Don't hesitate to play with fonts and "bold" to emphasize certain content.
+- Don't hesitate to play with _fonts_ and **"bold"** to emphasize certain content.
 
-Adapt the resolution and position of the items to the device you are using. A small piece of advice, in general, websites are more refined on the phone than on the computer.
+- Adapt the resolution and position of the items to the device you are using.
+
+A small piece of advice, in general, websites are more refined on the phone than on the computer.
 You can put a lot more text on your computer version.
 Be careful not to have too much text on your mobile version, or the user won't have a pleasant experience.
 
-It is imperative to have a website or page that the user can quickly browse through and easily understand the subject.
-V - Now that you have applied all our methods, how do you measure the results?
+> It is imperative to have a website or page that the user can quickly browse through and easily understand the subject.
+
+### Now that you have applied all our methods, how do you measure the results?
 
 If you have followed all our advice so far, you probably want to know what the impact is on your website. First of all, don't hesitate to measure your performance gain with the Google Page Speed Insights tool.
 
 You will be able to see what you still need to improve to optimize your performance and your natural referencing.
 
 Here are three essential tools:
-Google Universal Analytics allows you to track your traffic statistics.
-Google Search Console to track your ranking on Google, monitor issues, and see the queries users are looking for when they come to your site.
-Bing Webmaster Tools to see your position in search results in Bing, and yes, Bing still exists! 
+- Google Universal Analytics allows you to track your traffic statistics.
+- Google Search Console to track your ranking on Google, monitor issues, and see the queries users are looking for when they come to your site.
+- Bing Webmaster Tools to see your position in search results in Bing, and yes, Bing still exists! 
+
 If you follow all our tips, your website should see its SEO score improve thanks to optimized loading speed and more thematic content. You should appear in more search results, and Internet users will appreciate your website more. 
 
  With these three tools, you should have access to enough data to know if your SEO strategy and optimizations have worked.
