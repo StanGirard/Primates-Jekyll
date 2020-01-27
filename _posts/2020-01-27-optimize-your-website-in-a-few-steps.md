@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Optimize your website in a few steps
 categories:
   - SEO
@@ -9,8 +9,10 @@ author:
   - stan_girard
 tags:
   - SEO
+  - Optimization
 date: '2020-01-27'
 subtitle: SEO - Search Engine Optimization
+image: /img/marketing-seo/008-gold-medal.png
 ---
 SEO or Search Engine Optimization enables you to reach more potential customers or users with the equivalent content on your website. Spending time optimizing your website to be as SEO friendly as possible yields higher results.
 
