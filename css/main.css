@@ -25,13 +25,52 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-a {
-  color: {{ site.link-col }};
+
+/*
+* These styles creates the underlining of link
+*/
+
+ p a{
+  color: #404040;
+	position: relative;
+	z-index: 1;
+	display: inline-flex;
+	
+	padding-bottom: 2px;
 }
-a:hover,
-a:focus {
-  color: {{ site.hover-col }};
+
+p a::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, #010659 10%, rgba(0, 0, 0, 0) 20%);
+	
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	z-index: -1;
+	
+	will-change: width;
+	transform: rotate(-1deg);
+	transform-origin: left bottom
 }
+
+p a:hover::before{
+	width: 0;
+}
+
+/*
+* animation styles
+*/
+
+p a::before{
+	transition: width .1s ease-out;
+}
+
+p a:hover::before{
+	transition-duration: .15s;
+}
+
 blockquote {
   color: #808080;
   font-style: italic;
@@ -834,3 +873,4 @@ color: #68826F;
 }
 
 /* END OF IFRAME RESPONSIVE */
+
