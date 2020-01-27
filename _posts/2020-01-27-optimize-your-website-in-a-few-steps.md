@@ -32,7 +32,7 @@ It is your **best marketing asset**. It brings you quality traffic on your websi
 
 <br/>
 
-### Why should you optimize the speed of your website?
+### Why do you have to optimize the speed of your website?
 
 > The loading speed of a site is critical!
 
