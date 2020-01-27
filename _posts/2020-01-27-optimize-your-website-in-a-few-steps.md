@@ -15,15 +15,15 @@ subtitle: SEO - Search Engine Optimization
 image: /img/user_upload/seo-icon.jpg
 bigimg: /img/user_big_img/seo.jpg
 ---
-SEO or Search Engine Optimization enables you to reach more potential customers or users with the equivalent content on your website. Spending time optimizing your website to be as SEO friendly as possible yields higher results.
+**SEO or Search Engine Optimization** enables you to reach more potential customers or users with the equivalent content on your website. Spending time optimizing your website to be as SEO friendly as possible yields higher results.
 
-We'll try to demonstrate how to :
-Apply a good SEO (Search Engine Optimization) strategy
-Use good practices to optimize your website in both performance and quality.
+**We'll demonstrate how to :**
+- Apply a good SEO (Search Engine Optimization) strategy
+- Use good practices to optimize your website in both performance and quality.
 
-It is essential to increase the quality of your website to generate more traffic. You'll either make more sales or get more readers, therefore increasing your revenues. SEO should not be taken likely. It is one of the main factors that impact your success or demise.
+It is essential to **increase the quality of your website to generate more traffic**. You'll either make **more sales or get more readers**, therefore increasing your revenues. SEO should not be taken likely. It is one of the main factors that impact your success or demise.
 
-Why should you spend time learning about search engine optimization?
+## Why should you spend time learning about search engine optimization?
 
 It is your best marketing asset. It brings you quality traffic on your website, blog, or shops for free. What if you could attract thousands of users with just your content and not the ads you are running?
 
