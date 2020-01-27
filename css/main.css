@@ -51,7 +51,6 @@ p a::before{
 	z-index: -1;
 	
 	will-change: width;
-	transform: rotate(-1deg);
 	transform-origin: left bottom
 }
 
