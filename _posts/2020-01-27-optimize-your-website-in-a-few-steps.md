@@ -34,19 +34,23 @@ It is your **best marketing asset**. It brings you quality traffic on your websi
 
 ### Why should you optimize the speed of your website?
 
-The loading speed of a site is critical! A website that loads quickly will be more appreciated by its users, but especially by Google and other search engines.
+> The loading speed of a site is critical!
 
-Google references nearly 300,000 billion pages; imagine how long it takes to visit everything. Google allocates a certain amount of time for each site.
+A website that loads quickly will be more appreciated by its users, but especially by Google and other search engines.
+
+> Google references nearly 300,000 billion pages; imagine how long it takes to visit everything.
+
+Google allocates a certain amount of time for each site.
 If your website takes 1 second to load, Google will spend ten times more time on your website compared to a website that loads in 10 seconds.
 These are the main reasons why optimizing your website is very important.
 
-I - Optimize your website and speed up the loading speed of your pages.
+### Optimize your website and speed up the loading speed of your pages.
 
 By following these tips, you will improve your loading time. Beware! These tips are not always easy to implement.
 
-Why is loading time an essential criterion for your visitors?
+**Why is loading time an essential criterion for your visitors?**
 
-A Microsoft study shows that between 2000 and 2016, the average attention span of a human being has decreased from 12 seconds to 8 seconds, which is less than that of a goldfish (9 seconds)!
+ >A Microsoft study shows that between 2000 and 2016, the average attention span of a human being has decreased from 12 seconds to 8 seconds, which is less than that of a goldfish (9 seconds)!
 
 What does this mean for your visitors?
 
