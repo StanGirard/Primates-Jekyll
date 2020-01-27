@@ -25,14 +25,15 @@ It is essential to **increase the quality of your website to generate more traff
 
 ![SEOIMG.jpg]({{site.baseurl}}/img/user_upload/SEOIMG.jpg)
 
-
+<br/>
 ## Why should you spend time learning about search engine optimization?
 
 It is your **best marketing asset**. It brings you quality traffic on your website, blog, or shops for free. _What if you could attract thousands of users with just your content and not the ads you are running?_
 
-</br>
+<br/>
 
-Why should you optimize the speed of your website?
+### Why should you optimize the speed of your website?
+
 The loading speed of a site is critical! A website that loads quickly will be more appreciated by its users, but especially by Google and other search engines.
 
 Google references nearly 300,000 billion pages; imagine how long it takes to visit everything. Google allocates a certain amount of time for each site.
