@@ -22,6 +22,7 @@ description: Guides for developers
 navbar-links:
   Authors: 
     - Stanislas Girard: "authors/stangirard" 
+    - Tristan Dietz: "authors/tristandietz"
   Post An Article: "help/howto"
   Search: "help/search"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
