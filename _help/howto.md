@@ -21,7 +21,7 @@ Here are a few steps to help you get started on blogging
 ### Fork Primates Repo
 ---
 
-First of all, you need to fork the project.
+First of all, you need to fork the [project](https://github.com/StanGirard/Primates).
 
 > You need to have a GitHub account
 
