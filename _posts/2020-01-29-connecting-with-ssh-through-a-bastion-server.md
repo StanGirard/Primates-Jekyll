@@ -12,8 +12,6 @@ tags:
   - security
 date: '2020-01-29'
 ---
-## Concept and genesis
-
 Using SSH is today an easy way to access a remote host. There are several ways to use it, from using default context with user/password credentials to... Differents directions.
 
 A system architecture is well designed when adpated to the structure it belongs. A production environment can be made of a simple server, or you can use a load balancer, material or physical, and a few servers in cluster on a cutting-edge technology.
