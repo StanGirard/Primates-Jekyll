@@ -1,7 +1,16 @@
 ---
 layout: post
-published: false
+published: true
 title: Connecting with SSH through a bastion server
+categories:
+  - sys-admin
+author:
+  - tristan_dietz
+tags:
+  - sys-admin
+  - ssh
+  - security
+date: '2020-01-29'
 ---
 ## Concept and genesis
 
