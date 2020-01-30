@@ -15,6 +15,7 @@ collections:
     editor:
       preview: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
