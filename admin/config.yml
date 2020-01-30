@@ -54,5 +54,6 @@ collections:
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Website", name: "web", widget: "string", required: true}
       - {label: "Css", name: "css", widget: "string", required: false}
+      - { label: 'Position', name: 'position', widget: 'string' }
       - {label: "Body", name: "body", widget: "markdown"}
   
