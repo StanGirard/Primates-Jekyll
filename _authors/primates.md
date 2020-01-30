@@ -6,5 +6,6 @@ name: primates
 display_name: Primates
 email: primates@mail.com
 web: 'https://primates.dev'
+position: Chief Editor
 ---
 # Hello Devs !
