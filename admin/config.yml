@@ -34,6 +34,7 @@ collections:
       displayFields: [display_name],
       searchFields: [display_name],
       valueField: 'name',
+      multiple: true,
     }
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Body", name: "body", widget: "markdown"}
