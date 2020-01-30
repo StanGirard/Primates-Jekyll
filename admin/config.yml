@@ -30,8 +30,8 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Published", name: "published", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - label: "Authors"
-    name: "authors"
+  - name: "Authors"
+    label: "Authors"
     folder: "_authors/"
     create: true
     editor:
