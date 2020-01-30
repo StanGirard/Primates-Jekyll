@@ -65,10 +65,9 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "text"}
-      - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
+      - {label: "Landscape Image", name: "bigimg", widget: "image", required: false }
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Share Image", name: "share-img", widget: "image", required: false}
-      - {label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}" }
+      - {label: "Share Image", name: "share-img", widget: "image", required: false }
       - {label: "Description",name: "description",widget: "string",required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       
