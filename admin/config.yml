@@ -31,20 +31,18 @@ collections:
       name: 'author',
       widget: 'relation',
       collection: 'authors',
-      displayFields: ["display_name"],
-      searchFields: ["display_name"],
+      displayFields: [display_name],
+      searchFields: [display_name],
       valueField: 'name',
     }
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-      - {label: "Published", name: "published", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "Authors"
-    label: "Authors"
-    folder: "_authors/"
+  - name: 'authors'
+    label: 'Authors'
+    folder: '_authors/'
     create: true
     editor:
       preview: false
-    extension: "md"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
