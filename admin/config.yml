@@ -25,7 +25,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Share Image", name: "share-img", widget: "image", required: false}
       - {label: "Author", name: "author", widget: "list"}
-      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Published", name: "published", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
     
