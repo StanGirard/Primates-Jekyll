@@ -5,8 +5,7 @@ title: How to optimize your website in a few steps
 categories:
   - SEO
   - Optimization
-author:
-  - stan_girard
+author: stan_girard
 tags:
   - SEO
   - Optimization

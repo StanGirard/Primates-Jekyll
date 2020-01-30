@@ -4,8 +4,7 @@ published: true
 title: Connecting with SSH through a bastion server
 categories:
   - sys-admin
-author:
-  - tristan_dietz
+author: tristan_dietz
 tags:
   - sys-admin
   - ssh
