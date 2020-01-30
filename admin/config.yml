@@ -26,16 +26,7 @@ collections:
       - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Share Image", name: "share-img", widget: "image", required: false}
-      - {
-      label: 'Author',
-      name: 'author',
-      widget: 'relation',
-      collection: 'authors',
-      displayFields: [display_name],
-      searchFields: [display_name],
-      valueField: 'name',
-      multiple: true,
-    }
+      - { label: 'Author',name: 'author',widget: 'relation',collection: 'authors',displayFields: [display_name],searchFields: [display_name],valueField: 'name',multiple: true}
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'authors'
@@ -46,13 +37,19 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Title Author Page", name: "title", widget: "string", required: false}
+      - {label: "Subtitle Author Page", name: "subtitle", widget: "string",required: false}
       - {label: "username", name: "name", widget: "string"}
       - {label: "Display Name", name: "display_name", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
-      - {label: "Website", name: "web", widget: "string", required: true}
-      - {label: "Css", name: "css", widget: "string", required: false}
-      - { label: 'Position', name: 'position', widget: 'string' }
+      - {label: "Website", name: "web", widget: "string"}
+      - {label: "Custom Css", name: "css", widget: "string", required: false}
+      - { label: 'Position', name: 'position', widget: 'string', required: false }
+      - {label: "GitHub Username",name: "github_username",widget: "string",required: false}
+      - {label: "Facebook Username",name: "facebook_username",widget: "string",required: false}
+      - {label: "Twitter Username",name: "twitter_username",widget: "string",required: false}
+      - {label: "LinkedIn Username",name: "linkedin_username",widget: "string",required: false}
+      - {label: "Medium Username",name: "github_username",widget: "string",required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      
   
