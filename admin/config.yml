@@ -30,4 +30,19 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Published", name: "published", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
-    
+  - label: "Authors"
+    name: "authors"
+    folder: "_authors/"
+    create: true
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Username", name: "username", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Website", name: "website", widget: "string", required: true}
+      - {label: "Css", name: "css", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
