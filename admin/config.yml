@@ -36,6 +36,7 @@ collections:
     create: true
     editor:
       preview: false
+    extension: "html"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
