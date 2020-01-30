@@ -2,6 +2,7 @@ backend:
   name: github
   repo: StanGirard/Primates
   branch: master
+  open_authoring: true
 
 publish_mode: editorial_workflow
 
