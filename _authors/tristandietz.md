@@ -4,11 +4,10 @@ title: Tristan Dietz
 subtitle: 'Things, stuff...'
 name: tristan_dietz
 display_name: Tristan Dietz
-position: Editor
 email: tristan.dietz@greenly.dev
-web: https://primates.dev/authors/tristandietz
+web: 'https://primates.dev/authors/tristandietz'
 css: /css/aboutme.css
-published: true
+position: Chief Editor
 ---
 
 <div id="aboutme-section">
