@@ -52,7 +52,6 @@ collections:
       - {label: "LinkedIn Username",name: "linkedin_username",widget: "string",required: false}
       - {label: "Medium Username",name: "github_username",widget: "string",required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  collections:
   - label: "Categories"
     name: "categories"
     folder: "category"
