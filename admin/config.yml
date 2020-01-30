@@ -23,6 +23,7 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "text"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Category", name: "category",widget: "relation",collection: "categories",searchFields: ["title"],valueField: "slug",displayFields: ["title"]}
       - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Share Image", name: "share-img", widget: "image", required: false}
@@ -50,6 +51,26 @@ collections:
       - {label: "Twitter Username",name: "twitter_username",widget: "string",required: false}
       - {label: "LinkedIn Username",name: "linkedin_username",widget: "string",required: false}
       - {label: "Medium Username",name: "github_username",widget: "string",required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  collections:
+  - label: "Categories"
+    name: "categories"
+    folder: "category"
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    preview_path: "category/{{slug}}"
+    extension: "md"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Share Image", name: "share-img", widget: "image", required: false}
+      - {label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}" }
+      - {label: "Description",name: "description",widget: "string",required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       
   
