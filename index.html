@@ -57,16 +57,16 @@ share-img: 'https://primates.dev/img/homepage.png'
     <div class="blog-tags">
       {% if post.author.size == 1 %}
       {% for authors_post in post.author %}
-      {% assign author = site.authors | where: "username", authors_post | first %}
+      {% assign author = site.authors | where: "name", authors_post | first %}
       <!-- Personal Info. -->
-      Author: <a href="{{ author.web }}">{{ author.name }}</a>
+      Author: <a href="{{ author.web }}">{{ author.display_name }}</a>
       {% endfor %}
       {% endif %}
       {% if post.author.size > 1 %}
       Authors:
       {% for authors_post in post.author %}
-      {% assign author = site.authors | where: "username", authors_post | first %}
-      <a href="{{ author.web }}">{{ author.name }}</a>
+      {% assign author = site.authors | where: "name", authors_post | first %}
+      <a href="{{ author.web }}">{{ author.display_name }}</a>
       {% endfor %}
       {% endif %}
 

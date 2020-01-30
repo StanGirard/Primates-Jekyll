@@ -2,8 +2,8 @@
 layout: page
 title: Tristan Dietz
 subtitle: 'Things, stuff...'
-username: tristan_dietz
-name: Tristan Dietz
+name: tristan_dietz
+display_name: Tristan Dietz
 email: tristan.dietz@greenly.dev
 web: https://primates.dev/authors/tristandietz
 css: /css/aboutme.css

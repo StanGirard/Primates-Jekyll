@@ -59,18 +59,18 @@ layout: base
 
       <!-- AUTHORS -->
       {% if page.author.size == 1 %}
-      {% for authors in page.author %}
-      {% assign author = site.data.authors[authors] %}
+      {% for authors_post in page.author %}
+      {% assign author = site.authors | where: "name", authors_post | first %}
 
       <!-- Personal Info. -->
-      Author: <a href="{{ author.web }}">{{ author.name }}</a>
+      Author: <a href="{{ author.web }}">{{ author.display_name }}</a>
       {% endfor %}
       {% endif %}
       {% if page.author.size > 1 %}
       Authors:
-      {% for authors in page.author %}
-      {% assign author = site.data.authors[authors] %}
-      <a href="{{ author.web }}">{{ author.name }}</a>
+      {% for authors_post in page.author %}
+      {% assign author = site.authors | where: "name", authors_post | first %}
+      <a href="{{ author.web }}">{{ author.display_name }}</a>
       {% endfor %}
       {% endif %}
 

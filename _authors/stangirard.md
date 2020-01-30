@@ -2,8 +2,8 @@
 layout: page
 title: Stanislas Girard
 subtitle: "My Impressive boring life :D"
-username: stan_girard
-name: Stanislas Girard
+name: stan_girard
+display_name: Stanislas Girard
 email: girard.stanislas@pm.me
 web: https://primates.dev/authors/stangirard
 css: "/css/aboutme.css"
