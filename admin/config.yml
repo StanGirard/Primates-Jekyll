@@ -44,6 +44,6 @@ collections:
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Username", name: "username", widget: "string"}
       - {label: "Email", name: "email", widget: "string"}
-      - {label: "Website", name: "website", widget: "string", required: true}
+      - {label: "Website", name: "web", widget: "string", required: true}
       - {label: "Css", name: "css", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
