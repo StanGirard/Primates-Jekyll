@@ -2,10 +2,10 @@
 layout: post
 title: Liquid - Shopify
 subtitle: Best liquid Shopify
-categories:
-  - Test
 tags:
   - Test
+category:
+  - Undefined
 bigimg: /img/cloud-computing.jpg
 image: /img/algorithm.png
 share-img: /img/homepage.png
