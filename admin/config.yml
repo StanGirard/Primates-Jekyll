@@ -21,9 +21,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "text"}
-      - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Category", name: "category",widget: "relation",collection: "categories",searchFields: ["title"],valueField: "title",displayFields: ["title"]}
+      - {label: "Category", name: "category",widget: "relation",collection: "categories",searchFields: ["title"],valueField: "title",displayFields: ["title"], multiple: true}
       - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Share Image", name: "share-img", widget: "image", required: false}
