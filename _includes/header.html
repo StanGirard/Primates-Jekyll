@@ -2,7 +2,7 @@
 
 {% if page.bigimg or page.title %}
 
-{% if page.bigimg %}
+{% if page.bigimg and page.bigimg != '' %}
   <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
     {% for bigimg in page.bigimg %}
 	  {% assign imgnum = forloop.index %}
@@ -18,7 +18,7 @@
   ></div>
 {% endif %}
 
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
+<header class="header-section {% if page.bigimg and page.bigimg != '' %}has-img{% endif %}">
 {% if page.bigimg %}
 <div class="big-img intro-header">
   <div class="container">
