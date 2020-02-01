@@ -42,7 +42,7 @@ position: Chief Editor
 
     <div class="posts-list">
         {% for post in site.posts %}
-        {% if post.author contains page.author %}
+        {% if post.author contains page.name %}
         <article class="post-preview">
             <a href="{{ post.url | relative_url }}">
                 <h2 class="post-title">{{ post.title }}</h2>
