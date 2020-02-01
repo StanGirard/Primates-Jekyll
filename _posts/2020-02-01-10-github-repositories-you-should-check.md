@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 10 Github Repositories you should look at!
+title: 10 Github Repositories you should check!
 subtitle: A curated list of awesome Open-source projects
 tags:
   - Github
   - Top
 category:
-  - Undefined
+  - Top
+  - Github
 image: /img/github.png
 author:
   - stan_girard
