@@ -14,13 +14,17 @@ date: '2020-02-01'
 ---
 ## Nativefier
 
+
+
+![Nativefier example ](/img/nativefier-example.gif "Nativefier example")
+
 [Nativefier](https://github.com/jiahaog/nativefier) is a **command-line tool** to easily create a **desktop application for any web site** with succinct and minimal configuration. 
 
 Apps are wrapped by [Electron](http://electron.atom.io/) in an OS executable (`.app`,`.exe`, etc.) for use on Windows, macOS and Linux.
 
 You will be able to create an application on your computer for any website you'd like.
 
-Here is how to install it.
+**Installation**
 
 ```sh
 npm install nativefier -g
@@ -28,9 +32,13 @@ npm install nativefier -g
 
 Now run it on any website you want
 
-```sh
+```shell
 nativefier --name "Primates" "https://primates.dev"
 ```
+
+
+
+
 
 <https://github.com/jiahaog/nativefier>
 
