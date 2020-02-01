@@ -12,6 +12,14 @@ author:
   - stan_girard
 date: '2020-02-01'
 ---
+## Nativefier
+
+[Nativefier](https://github.com/jiahaog/nativefier) is a command-line tool to easily create a desktop application for any web site with succinct and minimal configuration. Apps are wrapped by[Electron](http://electron.atom.io/)in an OS executable (`.app`,`.exe`, etc.) for use on Windows, macOS and Linux.
+
+
+
+<https://github.com/jiahaog/nativefier>
+
 ## Oh-My-Zsh
 
 <https://github.com/ohmyzsh/ohmyzsh>
@@ -47,9 +55,3 @@ date: '2020-02-01'
 ## Free For Dev
 
 <https://github.com/ripienaar/free-for-dev>
-
-
-
-## Nativefier
-
-<https://github.com/jiahaog/nativefier>
