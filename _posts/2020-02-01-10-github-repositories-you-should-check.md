@@ -43,6 +43,16 @@ nativefier --name "Primates" "https://primates.dev"
 
 ## Oh-My-Zsh
 
+
+
+Easy installation
+```sh
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+```
+
+
 <https://github.com/ohmyzsh/ohmyzsh>
 
 ## Gitignore
