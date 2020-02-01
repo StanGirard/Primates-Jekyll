@@ -134,8 +134,6 @@ Reading package lists... Done
 ...
 ```
 
-
-
 ```shell
 ➜ git brnch
 git: 'brnch' is not a git command. See 'git --help'.
@@ -150,11 +148,33 @@ git branch [enter/↑/↓/ctrl+c]
 
 ## Netdata
 
-<https://github.com/netdata/netdata>
+**[Netdata](https://github.com/netdata/netdata)** is **distributed, real-time, performance and health monitoring for systems and applications**. It is a highly-optimized monitoring agent you install on all your systems and containers.
+
+Netdata provides **unparalleled insights**, **in real-time**, of everything happening on the systems it runs (including web servers, databases, applications), using **highly interactive web dashboards**. It can run autonomously, without any third-party components, or it can be integrated to existing monitoring toolchains (Prometheus, Graphite, OpenTSDB, Kafka, Grafana, and more).
+
+Netdata is **fast** and **efficient**, designed to permanently run on all systems (**physical** & **virtual** servers, **containers**, **IoT**devices), without disrupting their core function.
+
+Netdata is **free, open-source software** and it currently runs on **Linux**, **FreeBSD**, and **MacOS**, along with other systems derived from them, such as **Kubernetes** and **Docker**.
+
+![Netdata Gif Primates.dev](/img/netdata-primates.gif "Netdata Gif Primates.dev")
+
+### Easy Installation
+
+To install Netdata from source on any Linux system (physical, virtual, container, IoT, edge) and keep it up to date with the **nightly releases** automatically, run the following:
+
+```shell
+# make sure you run `bash` for your shell
+bash
+
+# install Netdata directly from GitHub source
+bash <(curl -Ss https://my-netdata.io/kickstart.sh)
+```
 
 ## Resume
 
-<https://github.com/resume/resume.github.com>
+**[Resume](https://github.com/resume/resume.github.com) is a service that creates a résumé based on your GitHub repos/activity.**
+
+![Resume Stan Girard Primates.dev](/img/resume-github.png "Resume StanGirard Primates.dev")
 
 ## Serverless
 
