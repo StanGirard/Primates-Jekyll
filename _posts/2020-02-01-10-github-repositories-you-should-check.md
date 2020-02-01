@@ -55,6 +55,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 [Github](https://github.com/ohmyzsh/ohmyzsh) 
 
+Oh-My-Zsh is probably one of the first thing you should install on a new environment. The project is updated frequently and the features are astonishing.
+
 ## Gitignore
 
 <https://github.com/github/gitignore>
