@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10 Github repositories you should check!
-subtitle: Here is the best of the best
+subtitle: A curated list of awesome Open-Source projects
 tags:
   - GIT
 category:
