@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The best git repositories you should check out
+title: 10 Github repositories you should check !
 subtitle: Here is the best of the best
 tags:
   - GIT
