@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Github Repositories you should check!
+title: 10 Github Repositories you should look at!
 subtitle: A curated list of awesome Open-source projects
 tags:
   - Github
