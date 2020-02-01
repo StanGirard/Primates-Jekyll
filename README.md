@@ -24,13 +24,13 @@ Primates is meant to be so simple to use that you can do it all within the brows
 Now that Docker is set up, you do not need to run the above steps again. You can now view your website at http://localhost:4000/. You can start the container again in the future with:
 
 ```bash
-docker start beautiful-jekyll
+docker start primates
 ```
 
 And you can stop the server with:
 
 ```bash
-docker stop beautiful-jekyll
+docker stop primates
 ```
 
 Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
