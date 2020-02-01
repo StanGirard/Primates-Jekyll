@@ -59,7 +59,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ## Gitignore
 
-This is GitHub’s collection of [`.gitignore`](http://git-scm.com/docs/gitignore) file templates. We use this list to populate the `.gitignore` template choosers available in the GitHub.com interface when creating new repositories and files.
+This is **GitHub**’s collection of [`.gitignore`](http://git-scm.com/docs/gitignore) file templates. We use this list to populate the `.gitignore` template choosers available in the GitHub.com interface when creating new repositories and files.
 
 For more information about how `.gitignore` files work, and how to use them, the following resources are a great place to start:
 
@@ -67,11 +67,30 @@ For more information about how `.gitignore` files work, and how to use them, the
 * The [Ignoring Files article](https://help.github.com/articles/ignoring-files) on the GitHub Help site.
 * The [gitignore](http://git-scm.com/docs/gitignore) manual page.
 
-Every time you start a new project you should go to Github Official [.gitignore](https://github.com/github/gitignore) and download the relevant .gitignore.
+> Every time you start a new project you should go to Github Official [.gitignore](https://github.com/github/gitignore) and download the relevant .gitignore.
 
-## Public APIS
+## Public APIs
 
-<https://github.com/public-apis/public-apis>
+The [Public API](https://github.com/public-apis/public-apis)'s Github Repository offers a collective list of free APIs for use in software and web development.
+
+If you are looking for a specific API, this is the place to start looking for.
+
+Here are a few links to the different APIs they reference 
+
+* [Business](https://github.com/public-apis/public-apis#business)
+* [Cloud Storage & File Sharing](https://github.com/public-apis/public-apis#cloud-storage--file-sharing)
+* [Continuous Integration](https://github.com/public-apis/public-apis#continuous-integration)
+* [Cryptocurrency](https://github.com/public-apis/public-apis#cryptocurrency)
+* [Currency Exchange](https://github.com/public-apis/public-apis#currency-exchange)
+* [Data Validation](https://github.com/public-apis/public-apis#data-validation)
+* [Development](https://github.com/public-apis/public-apis#development)
+* [Test Data](https://github.com/public-apis/public-apis#test-data)
+* [Text Analysis](https://github.com/public-apis/public-apis#text-analysis)
+* [Tracking](https://github.com/public-apis/public-apis#tracking)
+* [Transportation](https://github.com/public-apis/public-apis#transportation)
+* [URL Shorteners](https://github.com/public-apis/public-apis#url-shorteners)
+* [Video](https://github.com/public-apis/public-apis#video)
+* [Weather](https://github.com/public-apis/public-apis#weather)
 
 ## The Fuck
 
