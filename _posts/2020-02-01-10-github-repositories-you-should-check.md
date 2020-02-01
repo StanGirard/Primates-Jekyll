@@ -43,15 +43,15 @@ nativefier --name "Primates" "https://primates.dev"
 
 ## Oh-My-Zsh
 
+A delightful community-driven (with nearly 1,500 contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates
 
+![ZSH Primates.dev](/img/nebirhos.jpg "ZSH Primates.dev")
 
 Easy installation
+
 ```sh
-
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 ```
-
 
 <https://github.com/ohmyzsh/ohmyzsh>
 
