@@ -29,3 +29,25 @@ date: '2020-01-31'
 ## Netdata
 
 <https://github.com/netdata/netdata>
+
+## Resume
+
+<https://github.com/resume/resume.github.com>
+
+## Serverless
+
+<https://github.com/serverless/serverless>
+
+## Hyper
+
+<https://github.com/zeit/hyper>
+
+## Free For Dev
+
+<https://github.com/ripienaar/free-for-dev>
+
+
+
+## Nativefier
+
+<https://github.com/jiahaog/nativefier>
