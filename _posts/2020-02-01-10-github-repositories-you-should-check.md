@@ -194,9 +194,19 @@ It is based on:
 
 The Framework uses new event-driven compute services, like AWS Lambda, Google Cloud Functions, and more. It's a command-line tool, providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. It's also completely extensible via plugins.
 
+### Features
 
+* Supports Node.js, Python, Java, Go, C#, Ruby, Swift, Kotlin, PHP, Scala, & F#
+* Manages the lifecycle of your serverless architecture (build, deploy, update, delete).
+* Safely deploy functions, events and their required resources together via provider resource managers (e.g., AWS CloudFormation).
+* Functions can be grouped ("serverless services") for easy management of code, resources & processes, across large projects & teams.
+* Minimal configuration and scaffolding.
+* Built-in support for multiple stages.
+* Optimized for CI/CD workflows.
 
-<https://github.com/serverless/serverless>
+### Examples
+
+Here is a list [Serverless Examples](https://github.com/serverless/examples) for different applications
 
 ## Hyper
 
