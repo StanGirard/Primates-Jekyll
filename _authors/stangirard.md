@@ -1,20 +1,20 @@
 ---
 layout: page
 title: Stanislas Girard
-subtitle: "My Impressive boring life :D"
+subtitle: 'My Impressive boring life :D'
 name: stan_girard
 display_name: Stanislas Girard
-position: Chief Editor
 email: girard.stanislas@pm.me
-web: https://primates.dev/authors/stangirard
-css: "/css/aboutme.css"
+web: 'https://primates.dev/authors/stangirard'
+css: /css/aboutme.css
+position: Chief Editor
 ---
 
 <div id="aboutme-section">
 
     <p class="about-text">
         <span class="fa fa-briefcase about-icon"></span>
-        Currently a <strong>Blockchain Dev & DevOps</strong> at Natixis and <strong>student </strong> at
+        Currently a <strong>Blockchain Dev & DevOps</strong> at Natixis and <strong>Student </strong> at
         <strong>Epita</strong>.
     </p>
 
