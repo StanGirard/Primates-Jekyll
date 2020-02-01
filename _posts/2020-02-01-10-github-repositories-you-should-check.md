@@ -210,8 +210,14 @@ Here is a list [Serverless Examples](https://github.com/serverless/examples) for
 
 ## Hyper
 
-<https://github.com/zeit/hyper>
+[Hyper](https://hyper.is/) is a beautiful and extensible experience for command-line interface users, built on open web standards. In the beginning, our focus will be primarily around speed, stability and the development of the correct API for extension authors.
+
+![HyperJS Primates.dev Terminal](/img/hyperapp.gif "HyperJS Primates.dev Terminal")
+
+Download [here](https://hyper.is/)
 
 ## Free For Dev
 
-<https://github.com/ripienaar/free-for-dev>
+[Free For Dev](https://github.com/ripienaar/free-for-dev) is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
+
+The scope of this particular list is limited to things infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful.
