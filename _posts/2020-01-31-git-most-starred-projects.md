@@ -6,7 +6,7 @@ tags:
   - GIT
 category:
   - Undefined
-bigimg: /img/galaxy.jpg
+bigimg: ''
 image: /img/github.png
 share-img: /img/homepage.png
 author:
