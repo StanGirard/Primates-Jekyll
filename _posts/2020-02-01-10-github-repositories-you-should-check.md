@@ -94,11 +94,59 @@ Here are a few links to the different APIs they reference
 
 ## The Fuck
 
-Despite the name *[The Fuck](https://github.com/nvbn/thefuck)* is a magnificent app that corrects errors in previous console commands.
+Despite the name, *[The Fuck](https://github.com/nvbn/thefuck)* is a magnificent app that corrects errors in previous console commands.
 
 ![The Fuck example gif Primates.dev](/img/thefuck-example.gif "The Fuck Example")
 
-<https://github.com/nvbn/thefuck>
+### Easy Installation
+
+On OS X, you can install *The Fuck* via [Homebrew](https://brew.sh/)(or via [Linuxbrew](https://linuxbrew.sh/)on Linux):
+
+```shell
+brew install thefuck
+```
+
+On Ubuntu / Mint, install *The Fuck* with the following commands:
+
+```shell
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+```
+
+On other systems, install*The Fuck* by using `pip`:
+
+```shell
+pip install thefuck
+```
+
+### Examples
+
+```shell
+➜ apt-get install vim
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+
+➜ fuck
+sudo apt-get install vim [enter/↑/↓/ctrl+c]
+[sudo] password for nvbn:
+Reading package lists... Done
+...
+```
+
+
+
+```shell
+➜ git brnch
+git: 'brnch' is not a git command. See 'git --help'.
+
+Did you mean this?
+    branch
+
+➜ fuck
+git branch [enter/↑/↓/ctrl+c]
+* master
+```
 
 ## Netdata
 
