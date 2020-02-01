@@ -94,6 +94,10 @@ Here are a few links to the different APIs they reference
 
 ## The Fuck
 
+Despite the name *[The Fuck](https://github.com/nvbn/thefuck)* is a magnificent app that corrects errors in previous console commands.
+
+![The Fuck example gif Primates.dev](/img/thefuck-example.gif "The Fuck Example")
+
 <https://github.com/nvbn/thefuck>
 
 ## Netdata
