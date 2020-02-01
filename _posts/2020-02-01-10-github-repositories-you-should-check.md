@@ -53,7 +53,7 @@ Easy installation
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-<https://github.com/ohmyzsh/ohmyzsh>
+[Github](https://github.com/ohmyzsh/ohmyzsh) 
 
 ## Gitignore
 
