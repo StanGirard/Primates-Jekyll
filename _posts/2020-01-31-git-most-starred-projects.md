@@ -6,6 +6,9 @@ tags:
   - GIT
 category:
   - Undefined
+bigimg: /img/galaxy.jpg
+image: /img/github.png
+share-img: /img/homepage.png
 author:
   - stan_girard
 date: '2020-02-01'
