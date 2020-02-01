@@ -12,6 +12,8 @@ author:
   - stan_girard
 date: '2020-02-01'
 ---
+This is a curated list of awesome projects that are Open-source on Github. I'm sure you'll find something useful in your quest from Primate to Developer.
+
 ## Nativefier
 
 ![Nativefier example ](/img/nativefier-example.gif "Nativefier example")
@@ -221,3 +223,5 @@ Download [here](https://hyper.is/)
 [Free For Dev](https://github.com/ripienaar/free-for-dev) is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
 
 The scope of this particular list is limited to things infrastructure developers (System Administrator, DevOps Practitioners, etc.) are likely to find useful.
+
+Please feel free to let us know in the commentaries of other awesome projects that you know of.
