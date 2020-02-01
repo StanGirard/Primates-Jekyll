@@ -176,7 +176,23 @@ bash <(curl -Ss https://my-netdata.io/kickstart.sh)
 
 ![Resume Stan Girard Primates.dev](/img/resume-github.png "Resume StanGirard Primates.dev")
 
+All you have to do is go to **[Resume](https://github.com/resume/resume.github.com)**, then give your username and Resume will generate your Online CV based on [Github](https://github.com/) public activity.
+
+It is based on:
+
+* Github Profile information
+* Your website
+* The languages of the different projects your worked on
+* Your popular repositories
+* Your contributions to other repositories
+
 ## Serverless
+
+**[The Serverless Framework](https://github.com/serverless/serverless)** – Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run. This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.
+
+The Framework uses new event-driven compute services, like AWS Lambda, Google Cloud Functions, and more. It's a command-line tool, providing scaffolding, workflow automation and best practices for developing and deploying your serverless architecture. It's also completely extensible via plugins.
+
+
 
 <https://github.com/serverless/serverless>
 
