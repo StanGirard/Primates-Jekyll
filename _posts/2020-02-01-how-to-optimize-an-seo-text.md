@@ -27,17 +27,16 @@ Implementing an SEO strategy when writing your content is not easy. However, as 
 Beware, increasing your SEO is not an easy thing to implement. It is a process that takes time to implement and requires continuous work. Do not expect to be placed on the first page from the start, but do not despair!
 
 Writing a blog text or article optimized for SEO depends on many variables. Throughout this article, you will discover the different methods and tools that can help you implement an SEO strategy when writing your articles, product pages, blog articles.
- 
-Use titles and subtitles
-Add links to your texts
-Optimize the length of your texts
-Choose your keywords carefully
-Optimize your images
-Create Google Friendly URLs
-Make your content easy to share
-Write high-quality content
-Use headings and subheadings
-Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
+
+* Use titles and subtitles Add links to your texts
+* Optimize the length of your texts
+* Choose your keywords carefully
+* Optimize your images
+* Create Google Friendly URLs
+* Make your content easy to share
+* Write high-quality content
+* Use headings and subheadings
+* Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
 
 ## Use titles and subtitles
 
@@ -47,17 +46,13 @@ But it also makes it easier for search engines to understand the theme of your a
 
 A good quality title indicates to visitors and search engines the essential elements of your paragraph or page.
 
-Also, be careful to use the "title" tag on your website.
-This tag allows you to give a name to your page.
+Also, be careful to use the "title" tag on your website. This tag allows you to give a name to your page.
 
 For example, in the code of your page :
 
 <title>Blog | How to optimize a text for the SEO </title>
 
-Google restricts the title tag to 600 pixels. It is equivalent to 60 characters.
-Put your keyword at the beginning to increase your natural referencing.
-
-
+Google restricts the title tag to 600 pixels. It is equivalent to 60 characters. Put your keyword at the beginning to increase your natural referencing.
 
 ## Add links to your articles/pages.
 
@@ -74,20 +69,18 @@ Links to sites with a very high SEO score also improves your SEO score.
 Beware, search engines do not pay as much attention to the "freshness" of an article during referencing.
 
 For the last few years, Google has been implementing a "quality vs. quantity" policy.
- 
-It is better to have a quality article but a little older than a more recent article of lower quality.
 
+It is better to have a quality article but a little older than a more recent article of lower quality.
 
 ## Optimize the length of your texts
 
 In the old days, the articles published on the web were not very long. It was mainly a question of writing a lot of articles to be well referenced.
 
 However, in recent years search engines prefer longer content but of better quality.
- 
+
 It is more important for Google to write one article per week/month of 1500-2000 words than to write one article per day of 300-500 words.
 
 Today, the engines emphasize quality and not quantity. The robots that visit websites such as Google, Bing, Qwant have changed in recent years.
-
 
 ## Choose your keywords carefully.
 
@@ -101,12 +94,10 @@ You start by identifying the essential keywords that come to your mind, or you u
 
 ## Optimize your images
 
-We often forget about images, but they are much more important than you think.
-Before you start optimizing your content, don't forget to choose good quality images.
+We often forget about images, but they are much more important than you think. Before you start optimizing your content, don't forget to choose good quality images.
 A website with good quality images will more easily catch the attention of a web user.
 
-The images on your site also have tags and tags that you need to fill in. An ALT tag on an image allows search engines to understand what the subject of the image is.
-So don't hesitate to use as many keywords as possible in them.
+The images on your site also have tags and tags that you need to fill in. An ALT tag on an image allows search engines to understand what the subject of the image is. So don't hesitate to use as many keywords as possible in them.
 
 Pay attention to the size of your images. An image that is too big slows down your site and impacts your natural referencing. It also scares away Internet users because your site will take a long time to load.
 
@@ -114,35 +105,31 @@ Tools like Squoosh.app allow you to reduce the size of your images without reduc
 
 ## Create Google Friendly URLs
 
-Since 2008, Google has regularly confirmed that the length of a URL must be between 3 and 5 words.
-The search engine algorithm generally uses the keywords found in the URL to begin to understand the theme of your pages.
+Since 2008, Google has regularly confirmed that the length of a URL must be between 3 and 5 words. The search engine algorithm generally uses the keywords found in the URL to begin to understand the theme of your pages.
 It is also imperative to make your URLs easily understandable for your users.
- 
+
 For example, which URL will you click on as a user?
 
-primates.dev/blog/how-to-optimize-your-site.html
-primates.dev/blog/?p=123
+primates.dev/blog/how-to-optimize-your-site.html primates.dev/blog/?p=123
 
 The second link presented is a link that can be used as a base on Wordpress. Be careful to change your settings to not display on URL type if you use Wordpress for your website.
 
 Wordpress is the most popular CMS (Content Management System) in the world. However, it (and is not the only one) does not implement good SEO practices from the beginning.
 
-
-
 ## Make your content easily shareable.
+
 You have finally managed to write your article in quality and SEO-optimized ways. Now you need to make it easily shareable.
 
 Don't forget to fill in the meta description of your pages. It makes your articles more easily shareable because a thumbnail of the page appears when the link is shared on a platform.
 
 The user will be able to access a "preview" of your page and a short description that will make them want to click on it or not.
 
-Optimizing your meta descriptions will increase your CTR (Click Through Rate).
-A proper meta description is probably the simplest way to encourage users to click on your link.
+Optimizing your meta descriptions will increase your CTR (Click Through Rate). A proper meta description is probably the simplest way to encourage users to click on your link.
 
 ## Write high-quality content
+
 Don't think that SEO is all about making your article appealing to people. A poor quality article won't keep internet users very long.
 
 Search engines take into account the time that people spend on your pages to judge the quality of your pages.
 
 We advise you to read our article How to optimize your site to improve the natural referencing of your website.
-
