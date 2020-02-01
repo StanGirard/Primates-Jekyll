@@ -30,7 +30,7 @@ Now run it on any website you want
 
 ```sh
 nativefier --name "Primates" "https://primates.dev"
-``
+```
 
 <https://github.com/jiahaog/nativefier>
 
