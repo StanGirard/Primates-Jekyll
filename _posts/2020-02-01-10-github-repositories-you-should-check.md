@@ -41,8 +41,6 @@ nativefier --name "Primates" "https://primates.dev"
 
 ![Netlifier - Primates.dev  as an application](/img/netlifier-primates.png "Primates.dev Netlfier")
 
-<https://github.com/jiahaog/nativefier>
-
 ## Oh-My-Zsh
 
 <https://github.com/ohmyzsh/ohmyzsh>
