@@ -28,15 +28,15 @@ Beware, increasing your SEO is not an easy thing to implement. It is a process t
 
 Writing a blog text or article optimized for SEO depends on many variables. Throughout this article, you will discover the different methods and tools that can help you implement an SEO strategy when writing your articles, product pages, blog articles.
 
-* Use titles and subtitles Add links to your texts
-* Optimize the length of your texts
-* Choose your keywords carefully
-* Optimize your images
-* Create Google Friendly URLs
-* Make your content easy to share
-* Write high-quality content
-* Use headings and subheadings
-* Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
+- Use titles and subtitles Add links to your texts
+- Optimize the length of your texts
+- Choose your keywords carefully
+- Optimize your images
+- Create Google Friendly URLs
+- Make your content easy to share
+- Write high-quality content
+- Use headings and subheadings
+- Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
 
 ## Use titles and subtitles
 
@@ -62,7 +62,7 @@ Do not hesitate when writing blog articles if you talk about a tool, a website, 
 
 Think about creating an internal mesh of links between your blog articles. You can increase traffic to an old blog article by linking it to it in a new article or by updating it.
 
-The link in the articke allows readers to continue browsing other articles on your website.
+The link in the article allows readers to continue browsing other articles on your website.
 
 Links to sites with a very high SEO score also improves your SEO score.
 
@@ -74,7 +74,7 @@ It is better to have a quality article but a little older than a more recent art
 
 ## Optimize the length of your texts
 
-In the old days, the articles published on the web were not very long. It was mainly a question of writing a lot of articles to be well referenced.
+In the old days, the articles published on the web were not very long. It was mainly a question of writing many articles to be well referenced.
 
 However, in recent years search engines prefer longer content but of better quality.
 
