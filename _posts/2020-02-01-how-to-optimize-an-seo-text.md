@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to  optimize an SEO text
+title: How to write SEO optimized content?
 subtitle: Optimization of content is the key
 tags:
   - SEO
