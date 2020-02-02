@@ -6,7 +6,7 @@ tags:
   - SEO
   - Copywriting
 category: Undefined
-image: ''
+image: /img/write.png
 share-img: /img/homepage.png
 author:
   - stan_girard
