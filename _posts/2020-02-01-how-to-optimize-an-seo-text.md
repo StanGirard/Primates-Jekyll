@@ -28,15 +28,15 @@ Beware, increasing your SEO is not an easy thing to implement. It is a process t
 
 Writing a blog text or article optimized for SEO depends on many variables. Throughout this article, you will discover the different methods and tools that can help you implement an SEO strategy when writing your articles, product pages, blog articles.
 
-- Use titles and subtitles Add links to your texts
-- Optimize the length of your texts
-- Choose your keywords carefully
-- Optimize your images
-- Create Google Friendly URLs
-- Make your content easy to share
-- Write high-quality content
-- Use headings and subheadings
-- Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
+Use titles and subtitles Add links to your texts
+Optimize the length of your texts
+Choose your keywords carefully
+Optimize your images
+Create Google Friendly URLs
+Make your content easy to share
+Write high-quality content
+Use headings and subheadings
+Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
 
 ## Use titles and subtitles
 
@@ -132,4 +132,4 @@ Don't think that SEO is all about making your article appealing to people. A poo
 
 Search engines take into account the time that people spend on your pages to judge the quality of your pages.
 
-We advise you to read our article How to optimize your site to improve the natural referencing of your website.
+We advise you to read our article How to further optimize your site and to improve the natural referencing of your website.
