@@ -6,7 +6,7 @@ tags:
   - SEO
   - Copywriting
 category: Undefined
-image: /img/copywriting.png
+image: ''
 share-img: /img/homepage.png
 author:
   - stan_girard
@@ -18,7 +18,7 @@ Do you want to improve your traffic without increasing your marketing budget? Th
 
 Our guide should help you **improve your SEO** and help search engines to show you at the top of the page more quickly.
 
-\> It is now essential to write your content following the rules of the web.
+> It is now essential to write your content following the rules of the web.
 
 Websites with high authority and many backlinks (links to the site)  rank much higher in search results.
 
