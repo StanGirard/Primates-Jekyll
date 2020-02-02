@@ -6,6 +6,7 @@ tags:
   - SEO
   - Copywriting
 category: Undefined
+bigimg: /img/seo.jpg
 image: /img/write.png
 share-img: /img/homepage.png
 author:
