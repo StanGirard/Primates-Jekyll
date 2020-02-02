@@ -6,37 +6,41 @@ tags:
   - SEO
   - Copywriting
 category: Undefined
+image: /img/copywriting.png
+share-img: /img/homepage.png
 author:
   - stan_girard
 date: '2020-02-01'
 ---
 Do you want to improve your traffic without increasing your marketing budget? Then you'll need to make your SEO content friendly.
 
-Our guide should help you improve your SEO and help search engines to show you at the top of the page more quickly.
 
-It is now essential to write your content following the rules of the web.
+
+![copywriting primates.dev](/img/copywriting.jpg "Copywriting primates.dev")
+
+Our guide should help you **improve your SEO** and help search engines to show you at the top of the page more quickly.
+
+\> It is now essential to write your content following the rules of the web.
 
 Websites with high authority and many backlinks (links to the site)  rank much higher in search results.
 
-If a website appears on the first page for a query, it receives more clicks, sharing, love, and commitment.
+**If a website appears on the first page for a query, it receives more clicks, sharing, love, and commitment.**
 
-Having a website not found in the results means that you have no natural traffic. You will have more difficulty selling your product or making money from the ads.
-
+Having a website not found in the results means that you have no natural traffic. You will have more difficulty selling your product or making money from the ads.\
 Implementing an SEO strategy when writing your content is not easy. However, as soon as you understand the basic concepts and apply them to the writing of your content, your natural SEO should improve.
 
-Beware, increasing your SEO is not an easy thing to implement. It is a process that takes time to implement and requires continuous work. Do not expect to be placed on the first page from the start, but do not despair!
+**Beware, increasing your SEO is not an easy thing to implement. It is a process that takes time to implement and requires continuous work. Do not expect to be placed on the first page from the start, but do not despair!**
 
 Writing a blog text or article optimized for SEO depends on many variables. Throughout this article, you will discover the different methods and tools that can help you implement an SEO strategy when writing your articles, product pages, blog articles.
 
-Use titles and subtitles Add links to your texts
-Optimize the length of your texts
-Choose your keywords carefully
-Optimize your images
-Create Google Friendly URLs
-Make your content easy to share
-Write high-quality content
-Use headings and subheadings
-Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
+* Use titles and subtitles Add links to your texts Optimize the length of your texts
+* Choose your keywords carefully
+* Optimize your images
+* Create Google Friendly URLs
+* Make your content easy to share
+* Write high-quality content
+* Use headings and subheadings
+* Don't hesitate to use titles and subtitles that are easily readable and accessible to Internet users.
 
 ## Use titles and subtitles
 
@@ -94,8 +98,7 @@ You start by identifying the essential keywords that come to your mind, or you u
 
 ## Optimize your images
 
-We often forget about images, but they are much more important than you think. Before you start optimizing your content, don't forget to choose good quality images.
-A website with good quality images will more easily catch the attention of a web user.
+We often forget about images, but they are much more important than you think. Before you start optimizing your content, don't forget to choose good quality images. A website with good quality images will more easily catch the attention of a web user.
 
 The images on your site also have tags and tags that you need to fill in. An ALT tag on an image allows search engines to understand what the subject of the image is. So don't hesitate to use as many keywords as possible in them.
 
@@ -105,8 +108,7 @@ Tools like Squoosh.app allow you to reduce the size of your images without reduc
 
 ## Create Google Friendly URLs
 
-Since 2008, Google has regularly confirmed that the length of a URL must be between 3 and 5 words. The search engine algorithm generally uses the keywords found in the URL to begin to understand the theme of your pages.
-It is also imperative to make your URLs easily understandable for your users.
+Since 2008, Google has regularly confirmed that the length of a URL must be between 3 and 5 words. The search engine algorithm generally uses the keywords found in the URL to begin to understand the theme of your pages. It is also imperative to make your URLs easily understandable for your users.
 
 For example, which URL will you click on as a user?
 
