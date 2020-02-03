@@ -402,9 +402,10 @@ footer .theme-by {
   width: 100%;
 }
 .post-image {
+  padding-top: 25px;
   float: right;
-  height: 80px;
-  width: 80px;
+  height: 40px;
+  width: 40px;
   margin-top: -35px;
   filter: grayscale(60%);
 }
@@ -412,9 +413,9 @@ footer .theme-by {
   filter: grayscale(0%);
 }
 .post-image img {
-  border-radius: 40px;
-  height: 80px;
-  width: 80px;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -460,16 +461,16 @@ footer .theme-by {
 
 @media only screen and (max-width: 500px) {
   .post-image, .post-image img {
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
+    display: none !important; 
   }
 
-  .post-image {
+  /* .post-image {
     width: 100%;
-    text-align: center;
     margin-top: 0;
     float: left;
-  }
+  } */
 }
 /* --- Post and page headers --- */
 

@@ -9,6 +9,13 @@ share-img: 'https://primates.dev/img/homepage.png'
   {% for post in paginator.posts %}
   <div class="col-lg-6 col-md-6 ">
   <article class="post-preview">
+    {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.image | relative_url }}">
+        </a>
+      </div>
+      {% endif %}
     <a href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title }}</h2>
 
@@ -26,13 +33,6 @@ share-img: 'https://primates.dev/img/homepage.png'
     </p>
 
     <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
