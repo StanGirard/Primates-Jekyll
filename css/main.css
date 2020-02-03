@@ -354,7 +354,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview {
-    padding: 35px 0;
+    padding: 25px 0;
   }
 }
 
@@ -374,18 +374,19 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
   margin: 0;
+  font-size: 15px;
   font-weight: 300;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -397,22 +398,23 @@ footer .theme-by {
   width: 100%;
 }
 .post-entry {
+  font-size: 14px;
   width: 100%;
 }
 .post-image {
   float: right;
-  height: 192px;
-  width: 192px;
+  height: 80px;
+  width: 80px;
   margin-top: -35px;
-  filter: grayscale(90%);
+  filter: grayscale(60%);
 }
 .post-image:hover {
   filter: grayscale(0%);
 }
 .post-image img {
-  border-radius: 100px;
-  height: 192px;
-  width: 192px;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -420,7 +422,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 25px;
   }
 }
 

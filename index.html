@@ -1,12 +1,13 @@
 ---
 title: From Primates to Geeks
-layout: page
+layout: home
 subtitle: Content to help you in your evolution
 use-site-title: true
 share-img: 'https://primates.dev/img/homepage.png'
 ---
 <div class="posts-list">
   {% for post in paginator.posts %}
+  <div class="col-lg-6 col-md-6 ">
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title }}</h2>
@@ -76,6 +77,7 @@ share-img: 'https://primates.dev/img/homepage.png'
 
 
   </article>
+  </div>
   {% endfor %}
 </div>
 
