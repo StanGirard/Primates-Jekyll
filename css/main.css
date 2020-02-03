@@ -39,7 +39,8 @@ h1,h2,h3,h4,h5,h6 {
 	padding-bottom: 2px;
 }
 
-p a::before{
+
+p a:not(.authors)::before{
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -54,7 +55,7 @@ p a::before{
 	transform-origin: left bottom
 }
 
-p a:hover::before{
+p a:not(.authors):hover::before{
 	width: 0;
 }
 
@@ -348,13 +349,13 @@ footer .theme-by {
 /* --- Post preview --- */
 
 .post-preview {
-  padding: 20px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #eee;
 }
 
 @media only screen and (min-width: 768px) {
   .post-preview {
-    padding: 35px 0;
+    padding: 25px 0;
   }
 }
 
@@ -374,18 +375,19 @@ footer .theme-by {
 }
 
 .post-preview .post-title {
-  font-size: 30px;
+  font-size: 24px;
   margin-top: 0;
 }
 .post-preview .post-subtitle {
   margin: 0;
+  font-size: 15px;
   font-weight: 300;
   margin-bottom: 10px;
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -397,22 +399,24 @@ footer .theme-by {
   width: 100%;
 }
 .post-entry {
+  font-size: 16px;
   width: 100%;
 }
 .post-image {
+  padding-top: 25px;
   float: right;
-  height: 192px;
-  width: 192px;
+  height: 40px;
+  width: 40px;
   margin-top: -35px;
-  filter: grayscale(90%);
+  filter: grayscale(60%);
 }
 .post-image:hover {
   filter: grayscale(0%);
 }
 .post-image img {
-  border-radius: 100px;
-  height: 192px;
-  width: 192px;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -420,7 +424,7 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
@@ -430,7 +434,7 @@ footer .theme-by {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .blog-tags a {
@@ -451,23 +455,23 @@ footer .theme-by {
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview .blog-tags {
-    margin-top: 10px;
-  }
+  /* .post-preview .blog-tags {
+    margin-top: Opx;
+  } */
 }
 
 @media only screen and (max-width: 500px) {
   .post-image, .post-image img {
-    height: 100px;
-    width: 100px;
+    height: 20px;
+    width: 20px;
+    display: none !important; 
   }
 
-  .post-image {
+  /* .post-image {
     width: 100%;
-    text-align: center;
     margin-top: 0;
     float: left;
-  }
+  } */
 }
 /* --- Post and page headers --- */
 

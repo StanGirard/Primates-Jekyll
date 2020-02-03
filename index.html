@@ -1,37 +1,52 @@
 ---
 title: From Primates to Geeks
-layout: page
+layout: home
 subtitle: Content to help you in your evolution
 use-site-title: true
 share-img: 'https://primates.dev/img/homepage.png'
 ---
 <div class="posts-list">
   {% for post in paginator.posts %}
+  <div class="col-lg-6 col-md-6 ">
   <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">{{ post.title }}</h2>
-
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle }}
-      </h3>
-      {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: site.date_format }}
-      <!-- Add Read Time for the post -->
-      - {% include read-time.html content=post.content %}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
+    {% if post.image %}
       <div class="post-image">
         <a href="{{ post.url | relative_url }}">
           <img src="{{ post.image | relative_url }}">
         </a>
       </div>
       {% endif %}
+    <a href="{{ post.url | relative_url }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      <!-- {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %} -->
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: site.date_format }}
+      <!-- Add Read Time for the post -->
+      - {% include read-time.html content=post.content %}
+      {% if post.author.size == 1 %}
+      {% for authors_post in post.author %}
+      {% assign author = site.authors | where: "name", authors_post | first %}
+      <!-- Personal Info. -->
+      by <a class="authors" href="{{ author.web }}">{{ author.display_name }}</a>
+      {% endfor %}
+      {% endif %}
+      {% if post.author.size > 1 %}
+      by 
+      {% for authors_post in post.author %}
+      {% assign author = site.authors | where: "name", authors_post | first %}
+      <a class="authors" href="{{ author.web }}">{{ author.display_name }}</a>
+      {% endfor %}
+      {% endif %}
+    </p>
+
+    <div class="post-entry-container">
       <div class="post-entry">
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
@@ -55,20 +70,7 @@ share-img: 'https://primates.dev/img/homepage.png'
     </div>
     {% endif %}
     <div class="blog-tags">
-      {% if post.author.size == 1 %}
-      {% for authors_post in post.author %}
-      {% assign author = site.authors | where: "name", authors_post | first %}
-      <!-- Personal Info. -->
-      Author: <a href="{{ author.web }}">{{ author.display_name }}</a>
-      {% endfor %}
-      {% endif %}
-      {% if post.author.size > 1 %}
-      Authors:
-      {% for authors_post in post.author %}
-      {% assign author = site.authors | where: "name", authors_post | first %}
-      <a href="{{ author.web }}">{{ author.display_name }}</a>
-      {% endfor %}
-      {% endif %}
+      
 
 
     </div>
@@ -76,6 +78,7 @@ share-img: 'https://primates.dev/img/homepage.png'
 
 
   </article>
+  </div>
   {% endfor %}
 </div>
 
