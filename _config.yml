@@ -61,7 +61,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Stanislas Girard
+  name: A bunch of Geeks
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -70,9 +70,8 @@ author:
 social-network-links:
   rss: true
   email: "girard.stanislas@pm.me"
-  facebook: StanGirard
-  github: StanGirard
-  twitter: StanGirard
+  github: StanGirard/Primates
+  twitter: StanGirard2
 
 # Select which share links to show in posts
 share-links-active:
