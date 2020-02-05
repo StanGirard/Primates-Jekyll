@@ -45,7 +45,7 @@ The aim is indeed to connect not only smartphones and tablets but, more globally
 
 Above all, the 5G network will considerably reduce latency times to 1 ms as opposed to the 30-40 ms observed today. In addition to traditional Internet surfing, the goal is to be able to take control of objects remotely. Only an extremely low latency time is therefore acceptable for the piloting of a connected car, drone, etc.
 
-**The difference between the 4 & 5G is probably the biggest one yet in mobile technology**. The 5G standard boasts a completely revamped and more robust network standard. \
+**The difference between the 4 & 5G is probably the biggest one yet in mobile technology**. The 5G standard boasts a completely revamped and more robust network standard.
 With the adoption of 5G, mobile connectivity will change, moving from something we encounter mainly through individual devices to something that evolved into the substance of our society. Thus, creating an integrated infrastructure that connects to everything such as buildings, transportation, utilities, and even clothing.
 
 It will transform how our economy functions, transforming the energy, healthcare, transport, and retail sectors.
