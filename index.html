@@ -5,9 +5,10 @@ subtitle: Content to help you in your evolution
 use-site-title: true
 share-img: 'https://primates.dev/img/homepage.png'
 ---
-<div class="posts-list">
+<div class="row posts-list"></div>
   {% for post in paginator.posts %}
-  <div class="col-lg-6 col-md-6 ">
+  <div class="col-lg-6  col-md-6 ">
+    
   <article class="post-preview">
     {% if post.image %}
       <div class="post-image">
