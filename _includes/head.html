@@ -123,6 +123,9 @@
   {% include matomo.html %}
   {% endif %}
 
+  <script src="https://config.metomic.io/config.js?id=prj:bf41a4e5-e7b5-47ba-b111-835eca756732" crossorigin charset="utf-8"></script>
+  <script src="https://consent-manager.metomic.io/embed.js" crossorigin charset="utf-8"></script>
+
   {% if page.comments and site.staticman.repository and site.staticman.branch %}
   <!-- Staticman -->
   <link rel="stylesheet" href="{{ "/css/staticman.css" | relative_url }}" />
