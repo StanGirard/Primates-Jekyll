@@ -1,12 +1,20 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "github-pages", '197', group: :jekyll_plugins
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
 
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate-v2'
-
+# If you have any plugins, put them here!
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
-    gem 'jekyll-algolia'
-    gem 'jekyll-paginate-v2'
-  end
+    gem 'jekyll-feed'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-paginate'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-archives'
+    gem 'kramdown'
+    gem 'rouge'
+end

@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Stanislas Girard
-subtitle: 'My Impressive boring life :D'
+description: 'My Impressive boring life :D'
+avatar: 'assets/images/avatar.png'
+gravatar: b47607f482ffdd1887a7c1b5b0b64fc5
 name: stan_girard
 display_name: Stanislas Girard
 email: girard.stanislas@pm.me
 web: 'https://primates.dev/authors/stangirard'
-css: /css/aboutme.css
-position: Chief Editor
+twitter: https://twitter.com/StanGirard2
 ---
 
 <div id="aboutme-section">

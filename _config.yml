@@ -1,236 +1,56 @@
-# --- General options --- #
-
-# Name of website
-title: Primates
-
-# Short description of your site
-description: Content for Geeks
-
-# --- Local development options ---
-# If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
-# *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
-
-# url is the the website domain URL without a trailing slash
-url: "https://primates.dev"
-
-# baseurl should be an empty string
+# Site
+name: "Primates"
+title: "Primates"
+description: "From Primates to Geeks"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 baseurl: ""
-
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
-navbar-links:
-  Authors: 
-    - Stanislas Girard: "authors/stangirard" 
-    - Tristan Dietz: "authors/tristandietz"
-  Post An Article: "help/howto"
-  Search: "help/search"
-  #  - Learn markdown: "http://www.markdowntutorial.com/"
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/monkey.png"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-# title-img: /path/to/image
-
-# --- Background colour/image options --- #
-
-# Personalize the colors in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#F5F5F5"
-navbar-text-col: "#363636"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
-link-col: "#010659"
-hover-col: "#757575"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: A bunch of Geeks
-
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "girard.stanislas@pm.me"
-  github: StanGirard/Primates
-  twitter: StanGirard2
-
-# Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: false
-
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "Primates.dev"  
-
-# --- Web Statistics Section --- #
-
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-129019066-8"
-
-# Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-129019066-8"
-
-# Google Tag Manager ID
-gtm: "UA-129019066-8"
-
-
-# --- Comments --- #
-
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "primates"
-
-algolia:
-  application_id: G21KGHCSSB
-  index_name: primates
-  search_only_api_key: 419e7e12d44e1618301127c5b1276c05
-
-
-# Excerpt Word Length
-# Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
-
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
-
-# Ruby Date Format
-date_format: "%B %-d, %Y"
-
-# --- Don't need to touch anything below here (but you can if you want) --- #
-
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
+google_analytics: 'UA-129019066-8'
+disqus: 'primates'
+mailchimp-list: 'https://dev.us4.list-manage.com/subscribe/post?u=f61e5341a5639d6d2d9732852&amp;id=36ff49a116'
+include: ["_pages"]
 permalink: /:title/
 
-
-kramdown:
-  input: GFM
-
 collections:
-  help:
-    output: true
   authors:
     output: true
 
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  - 
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-      show-share: true # add sharing buttons to all blog posts
-  - 
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
-
-# Use tags index page and make tags on each post clickable
-link-tags: true
-
-# Exclude these files from production site
-exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Dockerfile
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Vagrantfile    
-
+# Plugins
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
-  - github-pages
-  - jekyll-algolia
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 9
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
-############################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
-pagination:
-  
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
 
-  # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'posts'
-
-  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 20
-
-  # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  #permalink: '/page/:num.html' # Pages are simple html files 
-  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
-
-  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title - page :num'
-
-  # Limit how many pagenated pages to create (default: 0, means all)
-  limit: 0
-  
-  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
-
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
-
-  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
-
-  # Optional, the default tag to use, omit to disable
-  tag: ''
-
-  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
-  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: '' 
-
- # Optional,omit or set both before and after to zero to disable. 
- # Controls how the pagination trail for the paginated pages look like. 
-  trail: 
-    before: 2
-    after: 2
-
-  # Optional, the default file extension for generated pages (e.g html, json, xml).
-  # Internally this is set to html by default
-  extension: html
-
-  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
-  # Without file extension
-  indexpage: 'index'
-
-############################################################
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
