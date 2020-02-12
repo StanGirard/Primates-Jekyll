@@ -1,0 +1,72 @@
+backend:
+  name: github
+  repo: StanGirard/Primates
+  branch: master
+  open_authoring: true
+
+publish_mode: editorial_workflow
+
+media_folder: "img"
+
+collections:
+  - name: "Articles"
+    label: "Articles"
+    folder: "_posts"
+    create: true
+    editor:
+      preview: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "{{title}}"
+    fields: # The fields for each document, usually in front matter.
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Category", name: "category",widget: "relation",collection: "categories",searchFields: ["title"],valueField: "title",displayFields: ["title"], multiple: true, default: "Undefined", required: false}
+      - {label: "Landscape Image", name: "bigimg", widget: "image", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Share Image", name: "share-img", widget: "image", required: false}
+      - { label: 'Author',name: 'author',widget: 'relation',collection: 'authors',displayFields: [display_name],searchFields: [display_name],valueField: 'name',multiple: true}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - {label: "Commentary", name: "commentary", widget: "text", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'authors'
+    label: 'Authors'
+    folder: '_authors/'
+    create: true
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title Author Page", name: "title", widget: "string", required: false}
+      - {label: "Subtitle Author Page", name: "subtitle", widget: "string",required: false}
+      - {label: "username", name: "name", widget: "string"}
+      - {label: "Display Name", name: "display_name", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Website", name: "web", widget: "string"}
+      - {label: "GitHub Username",name: "github_username",widget: "string",required: false}
+      - {label: "Facebook Username",name: "facebook_username",widget: "string",required: false}
+      - {label: "Twitter Username",name: "twitter_username",widget: "string",required: false}
+      - {label: "LinkedIn Username",name: "linkedin_username",widget: "string",required: false}
+      - {label: "Medium Username",name: "github_username",widget: "string",required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Categories"
+    name: "categories"
+    folder: "category"
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    preview_path: "category/{{slug}}"
+    extension: "md"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Landscape Image", name: "bigimg", widget: "image", required: false }
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Share Image", name: "share-img", widget: "image", required: false }
+      - {label: "Description",name: "description",widget: "string",required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      
+  
