@@ -5,7 +5,7 @@ description: "From Primates to Geeks"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
-google_analytics: ''
+google_analytics: 'UA-129019066-8'
 disqus: 'primates'
 mailchimp-list: 'https://dev.us4.list-manage.com/subscribe/post?u=f61e5341a5639d6d2d9732852&amp;id=36ff49a116'
 include: ["_pages"]
@@ -32,7 +32,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 9
 paginate_path: /page:num/
     
 # Other
