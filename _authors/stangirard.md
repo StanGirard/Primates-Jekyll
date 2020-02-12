@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stanislas Girard
-description: 'My Impressive boring life :D'
+description: 'Blockchain, DataScience, NLP, Web, DevOps, AI ... The World is full of interesting subjects'
 name: stan_girard
 display_name: Stanislas Girard
 email: girard.stanislas@pm.me
