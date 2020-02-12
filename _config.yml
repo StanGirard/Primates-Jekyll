@@ -15,17 +15,6 @@ collections:
   authors:
     output: true
 
-# Authors
-# authors:
-#   tristan_dietz:
-#     name: Tristan 
-#     display_name: Tristan Dietz
-#     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-#     email: test@test.com
-#     web: https://primates.com
-#     twitter: https://twitter.com/StaGirard
-#     description: "Another Geek"
-
 # Plugins
 plugins:
   - jekyll-paginate
