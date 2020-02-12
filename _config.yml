@@ -10,6 +10,7 @@ disqus: 'primates'
 mailchimp-list: 'https://dev.us4.list-manage.com/subscribe/post?u=f61e5341a5639d6d2d9732852&amp;id=36ff49a116'
 include: ["_pages"]
 permalink: /:title/
+url: "https://primates.dev"
 
 collections:
   authors:
