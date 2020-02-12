@@ -40,6 +40,8 @@ collections:
       - {label: "Display Name", name: "display_name", widget: "string"}
       - {label: "Email", name: "email", widget: "string", required: false}
       - {label: "Website", name: "web", widget: "string"}
+      - {label: "avatar", name: "avatar", widget: "image"}
+      - {label: "Gravatar", name: "gravatar", widget: "string"}
       - {label: "GitHub Username",name: "github_username",widget: "string",required: false}
       - {label: "Facebook Username",name: "facebook_username",widget: "string",required: false}
       - {label: "Twitter Username",name: "twitter",widget: "string",required: false}
