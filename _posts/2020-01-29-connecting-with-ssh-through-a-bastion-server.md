@@ -1,16 +1,9 @@
 ---
 layout: post
-published: true
 title: Connecting with SSH through a bastion server
-categories:
-  - sys-admin
+categories: [ sys-admin ]
 author: tristan_dietz
-tags:
-  - sys-admin
-  - ssh
-  - security
-date: '2020-01-29'
-image: /img/user_upload/fortress.png
+image: assets/images/connect.jpg
 ---
 Using SSH is today an easy way to access a remote host. There are several ways to use it, from using default context with user/password credentials to different directions.
 

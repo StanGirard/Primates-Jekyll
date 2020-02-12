@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Tristan Dietz
-subtitle: 'Things, stuff...'
-name: tristan_dietz
+name: tristan_dietz 
 display_name: Tristan Dietz
+gravatar: e56154546cf4be74e393c62d1ae9f9d4
 email: tristan.dietz@greenly.dev
-web: 'https://primates.dev/authors/tristandietz'
-css: /css/aboutme.css
-position: Chief Editor
+web: https://primates.dev/authors/tristandietz
+twitter: https://twitter.com/StanGirard2
+description: "Another Geek"
 ---
 
 <div id="aboutme-section">

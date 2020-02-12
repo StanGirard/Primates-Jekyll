@@ -1,20 +1,10 @@
 ---
 layout: post
-published: true
 title: Brave - A Web Browser that pays its users and respects privacy
 author: stan_girard
-image: /img/user_upload/brave-lion.png
-categories:
-  - Browser
-subtitle: A blockchain powered browser that rewards attention
-tags:
-  - Browser
-  - Blockchain
-  - Privacy
-  - BAT
-  - Brave
-date: '2020-01-25'
-share-img: 'https://primates.dev/img/user_upload/brave-presentation.png'
+image: assets/images/brave-presentation.png
+categories: [Browser, Blockchain]
+description: A blockchain powered browser that rewards attention
 ---
 The Browser that already has more than **8 million users** finally got out of beta and launched its version 1.0. It is the first mainstream Browser that pays its users, respects privacy while being user-friendly and fast. 
 

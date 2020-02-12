@@ -1,113 +1,181 @@
 ---
-layout: base
+layout: default
+disqus: false
+archive: false
+post_class: post-template
 ---
 
-{% include header.html type="post" %}
-
+<!-- Begin Article
+================================================== -->
 <div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="row">
 
-      {% if page.gh-repo %}
-      {% assign gh_split =  page.gh-repo | split:'/'  %}
-      {% assign gh_user =  gh_split[0]  %}
-      {% assign gh_repo =  gh_split[1]  %}
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            {% include share.html %}
+        </div>
 
-      <div id="header-gh-btns">
-        {% if page.gh-badge.size > 0 %}
-        {% for badge in page.gh-badge %}
-        {% case badge %}
-        {% when 'star'%}
-        <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=star&count=true"
-          frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-        {% when 'watch'%}
-        <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=watch&v=2&count=true"
-          frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-        {% when 'fork'%}
-        <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&repo={{ gh_repo }}&type=fork&count=true"
-          frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
-        {% when 'follow'%}
-        <iframe src="https://ghbtns.com/github-btn.html?user={{ gh_user }}&type=follow&count=true" frameborder="0"
-          scrolling="0" width="220px" height="20px"></iframe>
-        {% endcase %}
-        {% endfor %}
-        {% endif %}
-      </div>
-      {% endif %}
+        <!-- Post -->
+        {% assign author = site.authors | where: "name", page.author | first %}
 
-      <article role="main" class="blog-post">
-        {{ content }}
-      </article>
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
 
+                <!-- Author Box -->
+                {% if page.author %}
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        {% if author.avatar %}
+                        <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" alt="{{ author.display_name }}">
+                        {% else %}
+                        <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                        {% endif %}
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <span class="author-description">{{ author.description }}</span>
+                    </div>
+                </div>
+                {% endif %}
 
-      <!-- Output author details if some exist. -->
-      
+                <!-- Post Title -->
+                <h1 class="posttitle">{{ page.title }}</h1>
 
+            </div>
 
-      {% if page.tags.size > 0 %}
-      <div class="blog-tags">
-        Tags:
-        {% if site.link-tags %}
-        {% for tag in page.tags %}
-        <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-        {% endfor %}
-        {% else %}
-        {{ page.tags | join: ", " }}
-        {% endif %}
-      </div>
-      {% endif %}
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            {% if site.adsense == "enabled" %}
+                {% include adsense-under-header.html %}
+            {% endif %}
+            <!-- End Adsense -->
 
-      <!-- AUTHORS -->
-      {% if page.author.size == 1 %}
-      {% for authors_post in page.author %}
-      {% assign author = site.authors | where: "name", authors_post | first %}
+            <!-- Post Featured Image -->
+            {% if page.image %}
 
-      <!-- Personal Info. -->
-      Author: <a href="{{ author.web }}">{{ author.display_name }}</a>
-      {% endfor %}
-      {% endif %}
-      {% if page.author.size > 1 %}
-      Authors:
-      {% for authors_post in page.author %}
-      {% assign author = site.authors | where: "name", authors_post | first %}
-      <a href="{{ author.web }}">{{ author.display_name }}</a>
-      {% endfor %}
-      {% endif %}
+            {% if site.lazyimages == "enabled" %}
+            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            {% else %}
+            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            {% endif %}
 
+            {% endif %}
+            <!-- End Featured Image -->
 
-      {% if page.social-share %}
-      {% include social-share.html %}
-      {% endif %}
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                {% if page.toc %}
+                    {% if page.beforetoc %}
+                        <p><em>{{page.beforetoc}}</em></p>
+                    {% endif %}
+                    <div class="toc mt-4 mb-4 lead">
+                        <h3 class="font-weight-bold">Summary</h3>
+                        {% include toc.html html=content %}
+                    </div>
+                {% endif %}
+                <!-- End Toc -->
+                {{content}}
+            </div>
 
-      <ul class="pager blog-pager">
-        {% if page.previous.url %}
-        <li class="previous">
-          <a href="{{ page.previous.url | relative_url }}" data-toggle="tooltip" data-placement="top"
-            title="{{page.previous.title}}">&larr; Previous Post</a>
-        </li>
-        {% endif %}
-        {% if page.next.url %}
-        <li class="next">
-          <a href="{{ page.next.url | relative_url }}" data-toggle="tooltip" data-placement="top"
-            title="{{page.next.title}}">Next Post &rarr;</a>
-        </li>
-        {% endif %}
-      </ul>
+            <!-- Rating -->
+            {% if page.rating %}
+            <div class="rating mb-4 d-flex align-items-center">
+                <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
+            </div>
+            {% endif %}
 
-      
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
+                {% if page.last_modified_at %}
+                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
+                {% endif %}
+                </small>
+            </p>
 
-      {% if page.comments %}
-      <div class="disqus-comments">
-        {% include disqus.html %}
-      </div>
-      {% include fb-comment.html %}
-      <div class="staticman-comments">
-        {% include staticman-comments.html %}
-      </div>
-      <div class="justcomments-comments">
-        {% include just_comments.html %}
-      </div>
-      {% endif %}
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    {% assign sortedCategories = page.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <li>
+                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    {% assign sortedTags = page.tags | sort %}
+                    {% for tag in sortedTags %}
+                    <li>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            {% if page.previous.url %}
+            <a class="prev d-block col-md-6" href="{{ site.baseurl }}/{{page.previous.url}}"> &laquo; {{page.previous.title}}</a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next d-block col-md-6 text-lg-right" href="{{ site.baseurl }}/{{page.next.url}}">{{page.next.title}} &raquo; </a>
+            {% endif %}
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
     </div>
-  </div>
 </div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+{% if page.comments != false %}
+    <div class="container">
+        <div id="comments" class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                {% include disqus.html %}
+            </div>
+        </div>
+    </div>
+{% endif %}
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+{% if page.rating %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "{{ page.title }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ author.display_name }}"
+  },
+  "datePublished": "{{ page.date | date:"%Y-%m-%d" }}",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ page.rating }}",
+    "bestRating": "5"
+  }
+}
+</script>
+{% endif %}

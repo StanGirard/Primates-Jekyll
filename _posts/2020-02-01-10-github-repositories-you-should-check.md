@@ -1,17 +1,12 @@
 ---
 layout: post
 title: 10 Github Repositories you should check!
-subtitle: A curated list of awesome Open-source projects
-tags:
-  - Github
-  - Top
-category:
-  - Top
-  - Github
-image: /img/github.png
-author:
-  - stan_girard
-date: '2020-02-01'
+description: A curated list of awesome Open-source projects
+
+categories: [ Top, Github ]
+image: assets/images/github-top.jpg
+author: stan_girard
+
 ---
 This is a curated list of awesome projects that are Open-source on Github. I'm sure you'll find something useful in your quest from Primate to Developer.
 

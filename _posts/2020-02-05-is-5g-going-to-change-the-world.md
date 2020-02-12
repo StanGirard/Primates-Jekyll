@@ -2,17 +2,9 @@
 layout: post
 title: Is 5G going to change the world ?
 subtitle: what is 5G and how is it going to change our world?
-tags:
-  - 5G
-  - Network
-category:
-  - Undefined
-bigimg: /img/5G-bigimg.jpg
-image: /img/5G-logo.jpg
-share-img: /img/5G-everything.jpg
-author:
-  - stan_girard
-date: '2020-02-05'
+categories: [ 5G, Network ]
+image: assets/images/5G-image.jpg
+author: stan_girard
 ---
 The 5G network encompasses a set of technologies corresponding to the fifth generation of the standard for mobile telephony. ITU (Internation Telecommunication Union) and the 3GPP consortium validated its implementation. It officially deploys in 2020.
 

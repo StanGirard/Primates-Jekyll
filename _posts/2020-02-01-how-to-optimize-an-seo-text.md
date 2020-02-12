@@ -1,17 +1,10 @@
 ---
 layout: post
 title: How to write SEO optimized content?
-subtitle: Optimization of content is the key
-tags:
-  - SEO
-  - Copywriting
-category: Undefined
-bigimg: /img/seo.jpg
-image: /img/write.png
-share-img: /img/homepage.png
-author:
-  - stan_girard
-date: '2020-02-01'
+description: Optimization of content is the key
+categories: [SEO, Copywriting]
+image: assets/images/seo-image.jpg
+author: stan_girard
 ---
 Do you want to improve your traffic without increasing your marketing budget? Then you'll need to make your SEO content friendly.
 
