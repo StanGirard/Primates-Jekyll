@@ -4,8 +4,6 @@ title: Parse Petabytes of data from CommonCrawl in seconds
 categories: [Cloud, AWS]
 image: assets/images/aws-cloud.jpg
 author: stan_girard
-featured: true
-hidden: true
 ---
 
 [CommonCrawl](https://commoncrawl.org/) is a non-profit organization that crawls millions of websites every month and stores all the data on [Amazon S3](https://aws.amazon.com/s3/). 

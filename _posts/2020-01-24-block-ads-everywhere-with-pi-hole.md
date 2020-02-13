@@ -4,8 +4,6 @@ title: Block Ads everywhere with Pi-hole
 author: stan_girard
 image: assets/images/block-ads.jpg
 categories: [ Ads, DNS]
-featured: true
-hidden: true
 ---
 [Pi-hole](https://pi-hole.net/) allows you to block all the ads without even installing an ad blocker on your device. 
 One of the main advantages of [Pi-hole](https://pi-hole.net/) is that you can use it anywhere you like (TVs, smartphones, etc.)

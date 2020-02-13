@@ -6,7 +6,8 @@ description: A curated list of awesome Open-source projects
 categories: [ Top, Github ]
 image: assets/images/github-top.jpg
 author: stan_girard
-
+featured: true
+hidden: true
 ---
 This is a curated list of awesome projects that are Open-source on Github. I'm sure you'll find something useful in your quest from Primate to Developer.
 

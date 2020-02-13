@@ -5,6 +5,8 @@ author: stan_girard
 image: assets/images/brave-presentation.png
 categories: [Browser, Blockchain]
 description: A blockchain powered browser that rewards attention
+featured: true
+hidden: true
 ---
 The Browser that already has more than **8 million users** finally got out of beta and launched its version 1.0. It is the first mainstream Browser that pays its users, respects privacy while being user-friendly and fast. 
 
