@@ -35,9 +35,9 @@ docker stop primates
 
 Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
 
-### RSS feed
+### Create an article
 
-Primates automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts.  If you want to add a link to your RSS feed in the footer of every page, find the `rss: false` line in `_config.yml` and change it to `rss: true`.
+Go to [Admin Panel](https://primates.dev/admin/)
 
 ### Page types
 
