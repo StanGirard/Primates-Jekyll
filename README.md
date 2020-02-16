@@ -1,20 +1,41 @@
-# Mediumish - Jekyll Theme
+# Primates
 
-[Buy us a coffee](buymeacoff.ee/LtomdXB)
+### Build the website locally
+
+Primates is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps set that up with Docker:
+
+1. Make sure you have [Docker](https://www.docker.com/) installed.
+
+2. Clone your repository locally.
+
+    ```bash
+    git clone https://github.com/StanGirard/Primates.git
+    ```
+
+3. Run the following shell commands to build the docker image and start the container for the first time:
+
+    ```bash
+    cd <repository_folder>
+    docker build -t primates "$PWD"
+    docker run -d -p 4000:4000 --name primates -v "$PWD":/srv/jekyll primates
+    ```
 
 
+Now that Docker is set up, you do not need to run the above steps again. You can now view your website at http://localhost:4000/. You can start the container again in the future with:
 
-### Copyright
+```bash
+docker start primates
+```
 
-Copyright (C) 2019 Primates, https://primates.dev
+And you can stop the server with:
 
-<a href="buymeacoff.ee/LtomdXB" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+```bash
+docker stop primates
+```
 
-### Contribute
+Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
 
-1. [Fork the repo](https://github.com/StanGirard/Primates).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-primates-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+### Create an article
 
-Thank you!
+Go to [Admin Panel](https://primates.dev/admin/)
+
