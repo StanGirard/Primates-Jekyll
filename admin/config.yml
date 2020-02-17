@@ -3,11 +3,7 @@ backend:
   repo: StanGirard/Primates
   branch: master
   open_authoring: true
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: dtuuauisx
-    api_key: 446796112925863
+
 
 publish_mode: editorial_workflow
 
