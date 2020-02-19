@@ -1,4 +1,8 @@
-# Primates
+# Primates -> Discontinued now moved to Ghost.org
+
+
+
+
 
 ### Build the website locally
 
