@@ -1,6 +1,5 @@
 # Primates -> Discontinued now moved to Ghost.org
-
-
+Check [Here](https://github.com/StanGirard/Primates.dev) for the new team
 
 
 
